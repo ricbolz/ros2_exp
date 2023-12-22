@@ -1,0 +1,5 @@
+[console_scripts]
+hello_sub_and_pub = mr_exp_samples.hello_sub_and_pub:main
+joy_teleop = mr_exp_samples.joy_teleop:main
+watermark_node = mr_exp_samples.watermark_node:main
+

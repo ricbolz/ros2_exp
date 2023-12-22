@@ -1,0 +1,45 @@
+[3.572s] Invoking command in '/home/ubuntu/ros2_ws/src/mr_exp_samples': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/mr_exp_samples/prefix_override:/home/ubuntu/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mr_exp_samples build --build-base /home/ubuntu/ros2_ws/src/build/mr_exp_samples/build install --record /home/ubuntu/ros2_ws/src/build/mr_exp_samples/install.log --single-version-externally-managed
+[4.771s] running egg_info
+[4.773s] creating ../build/mr_exp_samples/mr_exp_samples.egg-info
+[4.774s] writing ../build/mr_exp_samples/mr_exp_samples.egg-info/PKG-INFO
+[4.776s] writing dependency_links to ../build/mr_exp_samples/mr_exp_samples.egg-info/dependency_links.txt
+[4.776s] writing entry points to ../build/mr_exp_samples/mr_exp_samples.egg-info/entry_points.txt
+[4.777s] writing requirements to ../build/mr_exp_samples/mr_exp_samples.egg-info/requires.txt
+[4.777s] writing top-level names to ../build/mr_exp_samples/mr_exp_samples.egg-info/top_level.txt
+[4.779s] writing manifest file '../build/mr_exp_samples/mr_exp_samples.egg-info/SOURCES.txt'
+[4.787s] reading manifest file '../build/mr_exp_samples/mr_exp_samples.egg-info/SOURCES.txt'
+[4.790s] writing manifest file '../build/mr_exp_samples/mr_exp_samples.egg-info/SOURCES.txt'
+[4.790s] running build
+[4.791s] running build_py
+[4.791s] creating /home/ubuntu/ros2_ws/src/build/mr_exp_samples/build
+[4.792s] creating /home/ubuntu/ros2_ws/src/build/mr_exp_samples/build/lib
+[4.793s] creating /home/ubuntu/ros2_ws/src/build/mr_exp_samples/build/lib/mr_exp_samples
+[4.793s] copying mr_exp_samples/joy_teleop.py -> /home/ubuntu/ros2_ws/src/build/mr_exp_samples/build/lib/mr_exp_samples
+[4.793s] copying mr_exp_samples/watermark_node.py -> /home/ubuntu/ros2_ws/src/build/mr_exp_samples/build/lib/mr_exp_samples
+[4.794s] copying mr_exp_samples/__init__.py -> /home/ubuntu/ros2_ws/src/build/mr_exp_samples/build/lib/mr_exp_samples
+[4.795s] copying mr_exp_samples/hello_sub_and_pub.py -> /home/ubuntu/ros2_ws/src/build/mr_exp_samples/build/lib/mr_exp_samples
+[4.796s] running install
+[4.797s] running install_lib
+[4.800s] creating /home/ubuntu/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages/mr_exp_samples
+[4.801s] copying /home/ubuntu/ros2_ws/src/build/mr_exp_samples/build/lib/mr_exp_samples/joy_teleop.py -> /home/ubuntu/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages/mr_exp_samples
+[4.801s] copying /home/ubuntu/ros2_ws/src/build/mr_exp_samples/build/lib/mr_exp_samples/watermark_node.py -> /home/ubuntu/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages/mr_exp_samples
+[4.802s] copying /home/ubuntu/ros2_ws/src/build/mr_exp_samples/build/lib/mr_exp_samples/__init__.py -> /home/ubuntu/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages/mr_exp_samples
+[4.803s] copying /home/ubuntu/ros2_ws/src/build/mr_exp_samples/build/lib/mr_exp_samples/hello_sub_and_pub.py -> /home/ubuntu/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages/mr_exp_samples
+[4.805s] byte-compiling /home/ubuntu/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages/mr_exp_samples/joy_teleop.py to joy_teleop.cpython-310.pyc
+[4.808s] byte-compiling /home/ubuntu/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages/mr_exp_samples/watermark_node.py to watermark_node.cpython-310.pyc
+[4.810s] byte-compiling /home/ubuntu/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages/mr_exp_samples/__init__.py to __init__.cpython-310.pyc
+[4.811s] byte-compiling /home/ubuntu/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages/mr_exp_samples/hello_sub_and_pub.py to hello_sub_and_pub.cpython-310.pyc
+[4.813s] running install_data
+[4.815s] creating /home/ubuntu/ros2_ws/src/install/mr_exp_samples/share/ament_index
+[4.816s] creating /home/ubuntu/ros2_ws/src/install/mr_exp_samples/share/ament_index/resource_index
+[4.816s] creating /home/ubuntu/ros2_ws/src/install/mr_exp_samples/share/ament_index/resource_index/packages
+[4.816s] copying resource/mr_exp_samples -> /home/ubuntu/ros2_ws/src/install/mr_exp_samples/share/ament_index/resource_index/packages
+[4.817s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/mr_exp_samples/share/mr_exp_samples
+[4.817s] running install_egg_info
+[4.824s] Copying ../build/mr_exp_samples/mr_exp_samples.egg-info to /home/ubuntu/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages/mr_exp_samples-0.0.0-py3.10.egg-info
+[4.829s] running install_scripts
+[4.912s] Installing hello_sub_and_pub script to /home/ubuntu/ros2_ws/src/install/mr_exp_samples/lib/mr_exp_samples
+[4.913s] Installing joy_teleop script to /home/ubuntu/ros2_ws/src/install/mr_exp_samples/lib/mr_exp_samples
+[4.913s] Installing watermark_node script to /home/ubuntu/ros2_ws/src/install/mr_exp_samples/lib/mr_exp_samples
+[4.915s] writing list of installed files to '/home/ubuntu/ros2_ws/src/build/mr_exp_samples/install.log'
+[5.052s] Invoked command in '/home/ubuntu/ros2_ws/src/mr_exp_samples' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/mr_exp_samples/prefix_override:/home/ubuntu/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mr_exp_samples build --build-base /home/ubuntu/ros2_ws/src/build/mr_exp_samples/build install --record /home/ubuntu/ros2_ws/src/build/mr_exp_samples/install.log --single-version-externally-managed
