@@ -15,6 +15,7 @@ class LineFollower(Node):
     def __init__(self):
         # super().__init__('follower', namespace='', node_options=options)
         super().__init__('follower')
+        self.switches = Switches()
         self.cmd_vel_timer = self.create_timer(0.05, self.on_cmd_vel_timer)
         self.cmd_vel_pub = self.create_publisher(Twist, 'cmd_vel', 1)
         self.buzzer_pub = self.create_publisher(Int16, 'buzzer', 1)
@@ -22,7 +23,7 @@ class LineFollower(Node):
         self.light_sensors_sub = self.create_subscription(LightSensors, 'light_sensors', self.callback_light_sensors, 1)
         self.switches_sub = self.create_subscription(Switches, 'switches', self.callback_switches, 1)
         self.motor_power_client = self.create_client(SetBool, 'motor_power')
-        
+
         self.present_sensor_values = [0] * self.SENSOR_NUM
         self.sensor_line_values = [0] * self.SENSOR_NUM
         self.sensor_field_values = [0] * self.SENSOR_NUM
