@@ -12,9 +12,10 @@ class LineFollower(Node):
     NUM_OF_SAMPLES = 10
     SENSOR_NUM = 4
 
-    def __init__(self, options):
+    def __init__(self):
         # super().__init__('follower', namespace='', node_options=options)
-        super().__init__('follower', namespace='')
+        super().__init__('follower')
+        self.switches = Switches()
         self.present_sensor_values = [0] * self.SENSOR_NUM
         self.sensor_line_values = [0] * self.SENSOR_NUM
         self.sensor_field_values = [0] * self.SENSOR_NUM
@@ -39,7 +40,7 @@ class LineFollower(Node):
     def on_cmd_vel_timer(self):
         if self.line_sampling or self.field_sampling:
             return
-        
+
         if self.switches.switch0:
             if self.sampling_is_done() and not self.can_publish_cmdvel:
                 self.get_logger().info("Start following.")

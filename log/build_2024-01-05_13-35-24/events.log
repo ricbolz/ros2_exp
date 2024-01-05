@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.002058] (-) JobUnselected: {'identifier': 'mr_exp_samples'}
+[0.002837] (-) JobUnselected: {'identifier': 'raspimouse'}
+[0.003371] (-) JobUnselected: {'identifier': 'raspimouse_msgs'}
+[0.003839] (-) JobUnselected: {'identifier': 'raspimouse_ros2_examples'}
+[0.004007] (-) JobUnselected: {'identifier': 'text_to_speech'}
+[0.004210] (-) JobUnselected: {'identifier': 'text_to_speech_msgs'}
+[0.004405] (hello) JobQueued: {'identifier': 'hello', 'dependencies': OrderedDict()}
+[0.004759] (hello) JobStarted: {'identifier': 'hello'}
+[0.099499] (-) TimerEvent: {}
+[0.201658] (-) TimerEvent: {}
+[0.303054] (-) TimerEvent: {}
+[0.412009] (-) TimerEvent: {}
+[0.513914] (-) TimerEvent: {}
+[0.616717] (-) TimerEvent: {}
+[0.718489] (-) TimerEvent: {}
+[0.826617] (-) TimerEvent: {}
+[0.930387] (-) TimerEvent: {}
+[1.034369] (-) TimerEvent: {}
+[1.136769] (-) TimerEvent: {}
+[1.240748] (-) TimerEvent: {}
+[1.343488] (-) TimerEvent: {}
+[1.447509] (-) TimerEvent: {}
+[1.550289] (-) TimerEvent: {}
+[1.652138] (-) TimerEvent: {}
+[1.753598] (-) TimerEvent: {}
+[1.855387] (-) TimerEvent: {}
+[1.958309] (-) TimerEvent: {}
+[2.061419] (-) TimerEvent: {}
+[2.164280] (-) TimerEvent: {}
+[2.266006] (-) TimerEvent: {}
+[2.368568] (-) TimerEvent: {}
+[2.472855] (-) TimerEvent: {}
+[2.576873] (-) TimerEvent: {}
+[2.678817] (-) TimerEvent: {}
+[2.780342] (-) TimerEvent: {}
+[2.881855] (-) TimerEvent: {}
+[2.983234] (-) TimerEvent: {}
+[3.085210] (-) TimerEvent: {}
+[3.188417] (-) TimerEvent: {}
+[3.290708] (-) TimerEvent: {}
+[3.393611] (-) TimerEvent: {}
+[3.495604] (-) TimerEvent: {}
+[3.597357] (-) TimerEvent: {}
+[3.700819] (-) TimerEvent: {}
+[3.803120] (-) TimerEvent: {}
+[3.905383] (-) TimerEvent: {}
+[4.007009] (-) TimerEvent: {}
+[4.109041] (-) TimerEvent: {}
+[4.210759] (-) TimerEvent: {}
+[4.313043] (-) TimerEvent: {}
+[4.414316] (-) TimerEvent: {}
+[4.515716] (-) TimerEvent: {}
+[4.617117] (-) TimerEvent: {}
+[4.718746] (-) TimerEvent: {}
+[4.821512] (-) TimerEvent: {}
+[4.926130] (-) TimerEvent: {}
+[5.030020] (-) TimerEvent: {}
+[5.134862] (-) TimerEvent: {}
+[5.237128] (-) TimerEvent: {}
+[5.338863] (-) TimerEvent: {}
+[5.441098] (-) TimerEvent: {}
+[5.543332] (-) TimerEvent: {}
+[5.647651] (-) TimerEvent: {}
+[5.751829] (-) TimerEvent: {}
+[5.855440] (-) TimerEvent: {}
+[5.958819] (-) TimerEvent: {}
+[6.060234] (-) TimerEvent: {}
+[6.164538] (-) TimerEvent: {}
+[6.268946] (-) TimerEvent: {}
+[6.370891] (-) TimerEvent: {}
+[6.472494] (-) TimerEvent: {}
+[6.574514] (-) TimerEvent: {}
+[6.676211] (-) TimerEvent: {}
+[6.781428] (-) TimerEvent: {}
+[6.884798] (-) TimerEvent: {}
+[6.987081] (-) TimerEvent: {}
+[7.088944] (-) TimerEvent: {}
+[7.192279] (-) TimerEvent: {}
+[7.296788] (-) TimerEvent: {}
+[7.398833] (-) TimerEvent: {}
+[7.500654] (-) TimerEvent: {}
+[7.604857] (-) TimerEvent: {}
+[7.708800] (-) TimerEvent: {}
+[7.810176] (-) TimerEvent: {}
+[7.911579] (-) TimerEvent: {}
+[8.013308] (-) TimerEvent: {}
+[8.116569] (-) TimerEvent: {}
+[8.220808] (-) TimerEvent: {}
+[8.322935] (-) TimerEvent: {}
+[8.424953] (-) TimerEvent: {}
+[8.526798] (-) TimerEvent: {}
+[8.628852] (-) TimerEvent: {}
+[8.731508] (-) TimerEvent: {}
+[8.834579] (-) TimerEvent: {}
+[8.937922] (-) TimerEvent: {}
+[9.043238] (-) TimerEvent: {}
+[9.145596] (-) TimerEvent: {}
+[9.247121] (-) TimerEvent: {}
+[9.350781] (-) TimerEvent: {}
+[9.453161] (-) TimerEvent: {}
+[9.556026] (-) TimerEvent: {}
+[9.658036] (-) TimerEvent: {}
+[9.762284] (-) TimerEvent: {}
+[9.863980] (-) TimerEvent: {}
+[9.966055] (-) TimerEvent: {}
+[10.068579] (-) TimerEvent: {}
+[10.171791] (-) TimerEvent: {}
+[10.273186] (-) TimerEvent: {}
+[10.375503] (-) TimerEvent: {}
+[10.477713] (-) TimerEvent: {}
+[10.579987] (-) TimerEvent: {}
+[10.681049] (-) TimerEvent: {}
+[10.782218] (-) TimerEvent: {}
+[10.883497] (-) TimerEvent: {}
+[10.984351] (-) TimerEvent: {}
+[11.085174] (-) TimerEvent: {}
+[11.186185] (-) TimerEvent: {}
+[11.287596] (-) TimerEvent: {}
+[11.389360] (-) TimerEvent: {}
+[11.492251] (-) TimerEvent: {}
+[11.594218] (-) TimerEvent: {}
+[11.696378] (-) TimerEvent: {}
+[11.799920] (-) TimerEvent: {}
+[11.902879] (-) TimerEvent: {}
+[12.006549] (-) TimerEvent: {}
+[12.117905] (hello) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/hello', 'build', '--build-base', '/home/ubuntu/ros2_ws/src/build/hello/build', 'install', '--record', '/home/ubuntu/ros2_ws/src/build/hello/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/hello', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ja:en', 'USER': 'ubuntu', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/raspimouse_ros2_examples/lib:/home/ubuntu/ros2_ws/install/raspimouse/lib:/home/ubuntu/ros2_ws/install/raspimouse_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.85.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ja_JP.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1756', 'SYSTEMD_EXEC_PID': '1955', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2655', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:26124', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-desktop:@/tmp/.ICE-unix/1912,unix/ubuntu-desktop:/tmp/.ICE-unix/1912', 'INVOCATION_ID': 'b8b9b7cfa5a549cda83154135a5a2b13', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PAD4G2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9ed865976c.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/text_to_speech:/home/ubuntu/ros2_ws/install/raspimouse_ros2_examples:/home/ubuntu/ros2_ws/install/raspimouse:/home/ubuntu/ros2_ws/install/raspimouse_msgs:/home/ubuntu/ros2_ws/install/mr_exp_samples:/home/ubuntu/ros2_ws/install/hello:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ros2_ws/src/build/hello', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/src/build/hello/prefix_override:/home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/text_to_speech/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/raspimouse_ros2_examples/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/raspimouse_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/mr_exp_samples/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/hello/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/raspimouse_ros2_examples:/home/ubuntu/ros2_ws/install/raspimouse:/home/ubuntu/ros2_ws/install/raspimouse_msgs'}, 'shell': False}
+[12.148001] (-) TimerEvent: {}
+[12.251570] (-) TimerEvent: {}
+[12.352943] (-) TimerEvent: {}
+[12.454233] (-) TimerEvent: {}
+[12.556950] (-) TimerEvent: {}
+[12.659024] (-) TimerEvent: {}
+[12.760006] (-) TimerEvent: {}
+[12.860975] (-) TimerEvent: {}
+[12.961838] (-) TimerEvent: {}
+[13.063098] (-) TimerEvent: {}
+[13.164549] (-) TimerEvent: {}
+[13.265473] (-) TimerEvent: {}
+[13.366664] (-) TimerEvent: {}
+[13.468708] (-) TimerEvent: {}
+[13.569581] (-) TimerEvent: {}
+[13.670557] (-) TimerEvent: {}
+[13.772237] (-) TimerEvent: {}
+[13.874533] (-) TimerEvent: {}
+[13.976055] (-) TimerEvent: {}
+[14.078271] (-) TimerEvent: {}
+[14.179776] (-) TimerEvent: {}
+[14.282263] (-) TimerEvent: {}
+[14.384696] (-) TimerEvent: {}
+[14.487778] (-) TimerEvent: {}
+[14.589058] (-) TimerEvent: {}
+[14.691445] (-) TimerEvent: {}
+[14.792840] (-) TimerEvent: {}
+[14.894168] (-) TimerEvent: {}
+[14.996283] (-) TimerEvent: {}
+[15.097444] (-) TimerEvent: {}
+[15.198416] (-) TimerEvent: {}
+[15.299807] (-) TimerEvent: {}
+[15.401042] (-) TimerEvent: {}
+[15.436909] (hello) StdoutLine: {'line': b'running egg_info\n'}
+[15.443499] (hello) StdoutLine: {'line': b'writing ../build/hello/hello.egg-info/PKG-INFO\n'}
+[15.445028] (hello) StdoutLine: {'line': b'writing dependency_links to ../build/hello/hello.egg-info/dependency_links.txt\n'}
+[15.446707] (hello) StdoutLine: {'line': b'writing entry points to ../build/hello/hello.egg-info/entry_points.txt\n'}
+[15.447691] (hello) StdoutLine: {'line': b'writing requirements to ../build/hello/hello.egg-info/requires.txt\n'}
+[15.448638] (hello) StdoutLine: {'line': b'writing top-level names to ../build/hello/hello.egg-info/top_level.txt\n'}
+[15.461431] (hello) StdoutLine: {'line': b"reading manifest file '../build/hello/hello.egg-info/SOURCES.txt'\n"}
+[15.468398] (hello) StdoutLine: {'line': b"writing manifest file '../build/hello/hello.egg-info/SOURCES.txt'\n"}
+[15.469537] (hello) StdoutLine: {'line': b'running build\n'}
+[15.470372] (hello) StdoutLine: {'line': b'running build_py\n'}
+[15.474160] (hello) StdoutLine: {'line': b'copying hello/line_follower.py -> /home/ubuntu/ros2_ws/src/build/hello/build/lib/hello\n'}
+[15.478925] (hello) StdoutLine: {'line': b'running install\n'}
+[15.480946] (hello) StdoutLine: {'line': b'running install_lib\n'}
+[15.490581] (hello) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/build/hello/build/lib/hello/line_follower.py -> /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello\n'}
+[15.501405] (-) TimerEvent: {}
+[15.503300] (hello) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/line_follower.py to line_follower.cpython-310.pyc\n'}
+[15.517319] (hello) StdoutLine: {'line': b'running install_data\n'}
+[15.523805] (hello) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.540294] (hello) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[15.542946] (hello) StdoutLine: {'line': b'Copying ../build/hello/hello.egg-info to /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello-0.0.0-py3.10.egg-info\n'}
+[15.552070] (hello) StdoutLine: {'line': b'running install_scripts\n'}
+[15.601654] (-) TimerEvent: {}
+[15.690851] (hello) StdoutLine: {'line': b'Installing hello_node script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello\n'}
+[15.692475] (hello) StdoutLine: {'line': b'Installing hello_publisher script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello\n'}
+[15.693906] (hello) StdoutLine: {'line': b'Installing hello_subscriber script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello\n'}
+[15.695388] (hello) StdoutLine: {'line': b'Installing joypad_mouse_controller script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello\n'}
+[15.696774] (hello) StdoutLine: {'line': b'Installing lightsensor_monitor script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello\n'}
+[15.699052] (hello) StdoutLine: {'line': b'Installing line_follower script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello\n'}
+[15.702384] (-) TimerEvent: {}
+[15.707713] (hello) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/src/build/hello/install.log'\n"}
+[15.802801] (-) TimerEvent: {}
+[15.904437] (-) TimerEvent: {}
+[15.929819] (hello) CommandEnded: {'returncode': 0}
+[16.004945] (-) TimerEvent: {}
+[16.106609] (-) TimerEvent: {}
+[16.209342] (-) TimerEvent: {}
+[16.311151] (-) TimerEvent: {}
+[16.412808] (-) TimerEvent: {}
+[16.515262] (-) TimerEvent: {}
+[16.617221] (-) TimerEvent: {}
+[16.719638] (-) TimerEvent: {}
+[16.787407] (hello) JobEnded: {'identifier': 'hello', 'rc': 0}
+[16.791898] (-) EventReactorShutdown: {}
