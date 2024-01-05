@@ -22,5 +22,10 @@ def generate_launch_description():
             package='hello',   
             namespace='hello',
             executable='lightsensor_monitor',
+        ),
+        Node(
+            package='hello',
+            namespace='hello',
+            executable='line_follower_component',
         )
     ])
