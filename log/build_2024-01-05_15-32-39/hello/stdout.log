@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing hello.egg-info/PKG-INFO
+writing dependency_links to hello.egg-info/dependency_links.txt
+writing entry points to hello.egg-info/entry_points.txt
+writing requirements to hello.egg-info/requires.txt
+writing top-level names to hello.egg-info/top_level.txt
+reading manifest file 'hello.egg-info/SOURCES.txt'
+writing manifest file 'hello.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello.egg-link (link to .)
+Installing lifecycle_node_manager script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+Installing line_follower script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+
+Installed /home/ubuntu/ros2_ws/src/build/hello
+running install_data
+copying launch/topic_launch.py -> /home/ubuntu/ros2_ws/src/install/hello/share/hello

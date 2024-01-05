@@ -4,6 +4,7 @@ from std_msgs.msg import String, Int16
 from geometry_msgs.msg import Twist
 from lifecycle_msgs.srv import ChangeState
 from raspimouse_msgs.msg import LightSensors, Switches, Leds
+from sensor_msgs.msg import Joy
 from std_srvs.srv import SetBool
 from rclpy.executors import MultiThreadedExecutor
 import time
@@ -15,6 +16,16 @@ class LineFollower(Node):
     def __init__(self):
         # super().__init__('follower', namespace='', node_options=options)
         super().__init__('follower')
+        self.subscription = self.create_subscription(
+            Joy,
+            'joy',
+            self.listener_callback,
+            10)
+        # self.publisher = self.create_publisher(
+        #     Twist,
+        #     'cmd_vel',
+        #     10)
+        self.velocity = 0.0
         self.switches = Switches()
         self.cmd_vel_timer = self.create_timer(0.05, self.on_cmd_vel_timer)
         self.cmd_vel_pub = self.create_publisher(Twist, 'cmd_vel', 1)
@@ -69,6 +80,33 @@ class LineFollower(Node):
             self.publish_cmdvel_for_line_following()
 
         self.indicate_line_detections()
+
+    def listener_callback(self, msg):
+        twist = Twist()
+
+        # For a PS2 controller, the left stick's x-axis (usually msg.axes[0]) controls the direction
+        twist.angular.z = msg.axes[0] 
+
+        # Check if the 'X' button (usually msg.buttons[2] for a PS2 controller) is pressed
+        if msg.buttons[2] == 1:
+            self.velocity += 0.01  # Increase the velocity
+            if self.velocity > 0.2 :
+                self.velocity = 0.2
+            self.get_logger().info('The "X" button is pressed. Increasing velocity.')
+
+        # Check if the 'Square' button (usually msg.buttons[3] for a PS2 controller) is pressed
+        elif msg.buttons[3] == 1:
+            self.velocity -= 0.01  # Decrease the velocity (act as brake)
+            if self.velocity < -0.2 :
+                self.velocity = -0.2
+            self.get_logger().info('The "Square" button is pressed. Decreasing velocity.')
+        else :
+            self.velocity = 0.0
+        # Apply the velocity
+        twist.linear.x = self.velocity
+
+        self.publisher.publish(twist)
+        self.get_logger().info('Publishing Twist: linear.x=%f, angular.z=%f' % (twist.linear.x, twist.angular.z))
 
     def callback_light_sensors(self, msg):
         # The order of the front distance sensors and the line following sensors are not the same

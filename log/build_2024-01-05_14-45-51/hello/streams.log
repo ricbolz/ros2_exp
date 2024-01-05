@@ -1,0 +1,29 @@
+[7.854s] Invoking command in '/home/ubuntu/ros2_ws/src/hello': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/hello/prefix_override:/home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hello build --build-base /home/ubuntu/ros2_ws/src/build/hello/build install --record /home/ubuntu/ros2_ws/src/build/hello/install.log --single-version-externally-managed
+[10.673s] running egg_info
+[10.680s] writing ../build/hello/hello.egg-info/PKG-INFO
+[10.683s] writing dependency_links to ../build/hello/hello.egg-info/dependency_links.txt
+[10.687s] writing entry points to ../build/hello/hello.egg-info/entry_points.txt
+[10.689s] writing requirements to ../build/hello/hello.egg-info/requires.txt
+[10.691s] writing top-level names to ../build/hello/hello.egg-info/top_level.txt
+[10.710s] reading manifest file '../build/hello/hello.egg-info/SOURCES.txt'
+[10.721s] writing manifest file '../build/hello/hello.egg-info/SOURCES.txt'
+[10.723s] running build
+[10.723s] running build_py
+[10.730s] running install
+[10.733s] running install_lib
+[10.750s] running install_data
+[10.755s] copying launch/topic_launch.py -> /home/ubuntu/ros2_ws/src/install/hello/share/hello
+[10.756s] copying launch/line_follower_launch.py -> /home/ubuntu/ros2_ws/src/install/hello/share/hello
+[10.758s] running install_egg_info
+[10.769s] removing '/home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello-0.0.0-py3.10.egg-info' (and everything under it)
+[10.772s] Copying ../build/hello/hello.egg-info to /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello-0.0.0-py3.10.egg-info
+[10.786s] running install_scripts
+[10.961s] Installing hello_node script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+[10.962s] Installing hello_publisher script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+[10.965s] Installing hello_subscriber script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+[10.966s] Installing joypad_mouse_controller script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+[10.967s] Installing lifecycle_node_manager script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+[10.968s] Installing lightsensor_monitor script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+[10.970s] Installing line_follower script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+[10.975s] writing list of installed files to '/home/ubuntu/ros2_ws/src/build/hello/install.log'
+[11.340s] Invoked command in '/home/ubuntu/ros2_ws/src/hello' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/hello/prefix_override:/home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hello build --build-base /home/ubuntu/ros2_ws/src/build/hello/build install --record /home/ubuntu/ros2_ws/src/build/hello/install.log --single-version-externally-managed

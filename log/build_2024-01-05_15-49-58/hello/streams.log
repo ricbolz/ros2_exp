@@ -1,0 +1,23 @@
+[7.740s] Invoking command in '/home/ubuntu/ros2_ws/src/build/hello': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/hello/prefix_override:/home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/hello/build --no-deps install_data
+[10.761s] running develop
+[12.595s] running egg_info
+[12.596s] writing hello.egg-info/PKG-INFO
+[12.600s] writing dependency_links to hello.egg-info/dependency_links.txt
+[12.601s] writing entry points to hello.egg-info/entry_points.txt
+[12.602s] writing requirements to hello.egg-info/requires.txt
+[12.602s] writing top-level names to hello.egg-info/top_level.txt
+[12.616s] reading manifest file 'hello.egg-info/SOURCES.txt'
+[12.623s] writing manifest file 'hello.egg-info/SOURCES.txt'
+[12.636s] running build_ext
+[12.637s] Creating /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello.egg-link (link to .)
+[12.643s] Installing hello_node script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+[12.646s] Installing hello_publisher script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+[12.648s] Installing hello_subscriber script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+[12.653s] Installing joypad_mouse_controller script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+[12.658s] Installing lifecycle_node_manager script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+[12.659s] Installing lightsensor_monitor script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+[12.662s] Installing line_follower script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+[12.663s] 
+[12.671s] Installed /home/ubuntu/ros2_ws/src/build/hello
+[12.674s] running install_data
+[13.088s] Invoked command in '/home/ubuntu/ros2_ws/src/build/hello' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/hello/prefix_override:/home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/hello/build --no-deps install_data

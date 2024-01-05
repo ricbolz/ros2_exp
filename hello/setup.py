@@ -29,6 +29,7 @@ setup(
             'joypad_mouse_controller = hello.JoypadMouseController:main',
             'lightsensor_monitor = hello.lightsensor_monitor:main',
             'line_follower = hello.line_follower:main',
+            'lifecycle_node_manager = hello.lifecycle_node_manager:main',
         ],
     },
 )

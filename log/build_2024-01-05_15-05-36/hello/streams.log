@@ -1,0 +1,19 @@
+[8.237s] Invoking command in '/home/ubuntu/ros2_ws/src/build/hello': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/hello/prefix_override:/home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/hello/build --no-deps install_data
+[10.972s] running develop
+[12.815s] running egg_info
+[12.817s] writing hello.egg-info/PKG-INFO
+[12.819s] writing dependency_links to hello.egg-info/dependency_links.txt
+[12.821s] writing entry points to hello.egg-info/entry_points.txt
+[12.822s] writing requirements to hello.egg-info/requires.txt
+[12.824s] writing top-level names to hello.egg-info/top_level.txt
+[12.839s] reading manifest file 'hello.egg-info/SOURCES.txt'
+[12.846s] writing manifest file 'hello.egg-info/SOURCES.txt'
+[12.858s] running build_ext
+[12.863s] Creating /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello.egg-link (link to .)
+[12.871s] Installing lifecycle_node_manager script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+[12.873s] Installing line_follower script to /home/ubuntu/ros2_ws/src/install/hello/lib/hello
+[12.876s] 
+[12.877s] Installed /home/ubuntu/ros2_ws/src/build/hello
+[12.877s] running install_data
+[12.879s] copying launch/follow_launch.py -> /home/ubuntu/ros2_ws/src/install/hello/share/hello
+[13.266s] Invoked command in '/home/ubuntu/ros2_ws/src/build/hello' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/hello/prefix_override:/home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/hello/build --no-deps install_data
