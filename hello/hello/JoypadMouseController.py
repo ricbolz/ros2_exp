@@ -2,6 +2,8 @@ import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
 from sensor_msgs.msg import Joy
+from raspimouse_msgs.msg import LightSensors, Switches, Leds
+from std_srvs.srv import SetBool
 
 class JoypadMouseController(Node):
     def __init__(self):
@@ -15,6 +17,16 @@ class JoypadMouseController(Node):
             Twist,
             'cmd_vel',
             10)
+        self.switch_sub = self.create_subscription(
+            Switches,
+            'switches',
+            self.switch_callback,
+            10)
+        self.light_pub = self.create_publisher(
+            Leds,
+            'leds',
+            10)
+        
         self.velocity = 0.0
 
     def listener_callback(self, msg):
@@ -43,6 +55,19 @@ class JoypadMouseController(Node):
 
         self.publisher.publish(twist)
         self.get_logger().info('Publishing Twist: linear.x=%f, angular.z=%f' % (twist.linear.x, twist.angular.z))
+
+    def switch_callback(self, msg):
+        leds = Leds()
+        if msg.switch0:
+            leds.left_side = Leds.LED_ON
+        else:
+            leds.left_side = Leds.LED_OFF
+        if msg.switch1:
+            leds.right_side = Leds.LED_ON
+        else:
+            leds.right_side = Leds.LED_OFF
+        self.light_pub.publish(leds)
+        self.get_logger().info('Publishing Leds: left_side=%d, right_side=%d' % (leds.left_side, leds.right_side))
 
 def main():
     rclpy.init()
