@@ -14,7 +14,7 @@ class LineFollower(Node):
 
     def __init__(self, options):
         # super().__init__('follower', namespace='', node_options=options)
-        super().__init__('follower', namespace='')
+        super().__init__('follower')
         self.present_sensor_values = [0] * self.SENSOR_NUM
         self.sensor_line_values = [0] * self.SENSOR_NUM
         self.sensor_field_values = [0] * self.SENSOR_NUM
