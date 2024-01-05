@@ -204,16 +204,11 @@ class Follower(Node):
             f"MR:{self.line_thresholds[2]}, R:{self.line_thresholds[3]}"
         )
 
-def main(args=None):
-    rclpy.init(args=args)
-    executor = MultiThreadedExecutor()
-
-    options = rclpy.node.NodeOptions()
-    follower = Follower(options)
-    executor.add_node(follower)
-
-    executor.spin()
-
+def main():
+    rclpy.init()
+    node = Follower()
+    rclpy.spin(node)
+    rclpy.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
