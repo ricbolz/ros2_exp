@@ -9,7 +9,7 @@
 /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/key_monitor.py
 /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/line_follower.py
 /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/sound_play.py
-/home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/line_follower_component.py
+/home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/lifecycle_node_manager.py
 /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/hello_publisher.py
 /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/__pycache__/lightsensor_monitor.cpython-310.pyc
 /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/__pycache__/hello_node.cpython-310.pyc
@@ -22,12 +22,13 @@
 /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/__pycache__/key_monitor.cpython-310.pyc
 /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/__pycache__/line_follower.cpython-310.pyc
 /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/__pycache__/sound_play.cpython-310.pyc
-/home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/__pycache__/line_follower_component.cpython-310.pyc
+/home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/__pycache__/lifecycle_node_manager.cpython-310.pyc
 /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/__pycache__/hello_publisher.cpython-310.pyc
 /home/ubuntu/ros2_ws/src/install/hello/share/ament_index/resource_index/packages/hello
 /home/ubuntu/ros2_ws/src/install/hello/share/hello/package.xml
 /home/ubuntu/ros2_ws/src/install/hello/share/hello/topic_launch.py
 /home/ubuntu/ros2_ws/src/install/hello/share/hello/text_to_speech_launch.py
+/home/ubuntu/ros2_ws/src/install/hello/share/hello/line_follower_launch.py
 /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/ubuntu/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello-0.0.0-py3.10.egg-info/entry_points.txt
@@ -40,3 +41,4 @@
 /home/ubuntu/ros2_ws/src/install/hello/lib/hello/hello_subscriber
 /home/ubuntu/ros2_ws/src/install/hello/lib/hello/joypad_mouse_controller
 /home/ubuntu/ros2_ws/src/install/hello/lib/hello/lightsensor_monitor
+/home/ubuntu/ros2_ws/src/install/hello/lib/hello/line_follower

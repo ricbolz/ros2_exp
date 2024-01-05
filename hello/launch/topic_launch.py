@@ -26,6 +26,6 @@ def generate_launch_description():
         Node(
             package='hello',
             namespace='hello',
-            executable='line_follower_component',
+            executable='line_follower',
         )
     ])

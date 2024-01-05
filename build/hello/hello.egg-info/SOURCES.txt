@@ -17,10 +17,11 @@ hello/image_capture.py
 hello/image_monitor.py
 hello/key_monitor.py
 hello/keyboard.py
+hello/lifecycle_node_manager.py
 hello/lightsensor_monitor.py
 hello/line_follower.py
-hello/line_follower_component.py
 hello/sound_play.py
+launch/line_follower_launch.py
 launch/text_to_speech_launch.py
 launch/topic_launch.py
 resource/hello

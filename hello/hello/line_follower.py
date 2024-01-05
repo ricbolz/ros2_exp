@@ -8,12 +8,13 @@ from std_srvs.srv import SetBool
 from rclpy.executors import MultiThreadedExecutor
 import time
 
-class Follower(Node):
+class LineFollower(Node):
     NUM_OF_SAMPLES = 10
     SENSOR_NUM = 4
 
     def __init__(self, options):
-        super().__init__('follower', namespace='', node_options=options)
+        # super().__init__('follower', namespace='', node_options=options)
+        super().__init__('follower', namespace='')
         self.present_sensor_values = [0] * self.SENSOR_NUM
         self.sensor_line_values = [0] * self.SENSOR_NUM
         self.sensor_field_values = [0] * self.SENSOR_NUM
@@ -206,9 +207,9 @@ class Follower(Node):
 
 def main():
     rclpy.init()
-    node = Follower()
+    node = LineFollower()
     rclpy.spin(node)
-    rclpy.destroy_node()
+    node.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':

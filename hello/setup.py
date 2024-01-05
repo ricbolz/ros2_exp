@@ -28,7 +28,7 @@ setup(
             'hello_subscriber = hello.hello_subscriber:main',
             'joypad_mouse_controller = hello.JoypadMouseController:main',
             'lightsensor_monitor = hello.lightsensor_monitor:main',
-            'line_follower = hello.line_follower_component:main',
+            'line_follower = hello.line_follower:main',
         ],
     },
 )
