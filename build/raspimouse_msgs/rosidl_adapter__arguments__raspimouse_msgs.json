@@ -1,0 +1,8 @@
+{
+  "package_name": "raspimouse_msgs",
+  "non_idl_tuples": [
+    "/home/ricbolz/ros2_ws/src/raspimouse2/raspimouse_msgs:msg/Leds.msg",
+    "/home/ricbolz/ros2_ws/src/raspimouse2/raspimouse_msgs:msg/Switches.msg",
+    "/home/ricbolz/ros2_ws/src/raspimouse2/raspimouse_msgs:msg/LightSensors.msg"
+  ]
+}

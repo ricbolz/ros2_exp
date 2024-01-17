@@ -1,0 +1,573 @@
+[0.000000] (-) TimerEvent: {}
+[0.000372] (hello) JobQueued: {'identifier': 'hello', 'dependencies': OrderedDict()}
+[0.000405] (mr_exp_samples) JobQueued: {'identifier': 'mr_exp_samples', 'dependencies': OrderedDict()}
+[0.000418] (raspimouse_msgs) JobQueued: {'identifier': 'raspimouse_msgs', 'dependencies': OrderedDict()}
+[0.000428] (raspimouse) JobQueued: {'identifier': 'raspimouse', 'dependencies': OrderedDict([('raspimouse_msgs', '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs')])}
+[0.000441] (raspimouse_msgs) JobStarted: {'identifier': 'raspimouse_msgs'}
+[0.064236] (hello) JobStarted: {'identifier': 'hello'}
+[0.100455] (-) TimerEvent: {}
+[0.139798] (raspimouse_msgs) JobProgress: {'identifier': 'raspimouse_msgs', 'progress': 'cmake'}
+[0.140823] (raspimouse_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ricbolz/ros2_ws/src/raspimouse2/raspimouse_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs'], 'cwd': '/home/ricbolz/ros2_ws/src/build/raspimouse_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ricbolz'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ricbolz/ros2_ws/install/raspimouse/lib:/home/ricbolz/ros2_ws/install/raspimouse_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ricbolz'), ('OLDPWD', '/home/ricbolz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1421'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ricbolz/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ricbolz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ricbolz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ricbolz-VirtualBox:@/tmp/.ICE-unix/1401,unix/ricbolz-VirtualBox:/tmp/.ICE-unix/1401'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/477bd760_cfa3_4387_b1a9_594f4751f4f4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DQC4G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.179'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ricbolz/ros2_ws/src/build/raspimouse_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ricbolz/ros2_ws/install/raspimouse_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble')]), 'shell': False}
+[0.200899] (-) TimerEvent: {}
+[0.301973] (-) TimerEvent: {}
+[0.399139] (raspimouse_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.407473] (-) TimerEvent: {}
+[0.471552] (raspimouse_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.497318] (raspimouse_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.507704] (-) TimerEvent: {}
+[0.592533] (raspimouse_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.597954] (raspimouse_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.599079] (raspimouse_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.599967] (raspimouse_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.603814] (raspimouse_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.607986] (-) TimerEvent: {}
+[0.694927] (raspimouse_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.701685] (raspimouse_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.702107] (raspimouse_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.702767] (raspimouse_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.708229] (-) TimerEvent: {}
+[0.714685] (raspimouse_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.809626] (-) TimerEvent: {}
+[0.910982] (-) TimerEvent: {}
+[0.913734] (raspimouse_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.946835] (hello) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ricbolz/ros2_ws/src/build/hello/build', '--no-deps', 'install_data'], 'cwd': '/home/ricbolz/ros2_ws/src/build/hello', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ricbolz', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ricbolz/ros2_ws/install/raspimouse/lib:/home/ricbolz/ros2_ws/install/raspimouse_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ricbolz', 'OLDPWD': '/home/ricbolz', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '1421', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ricbolz/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ricbolz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ricbolz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ricbolz-VirtualBox:@/tmp/.ICE-unix/1401,unix/ricbolz-VirtualBox:/tmp/.ICE-unix/1401', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/477bd760_cfa3_4387_b1a9_594f4751f4f4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DQC4G2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.179', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ricbolz/ros2_ws/src/build/hello', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ricbolz/ros2_ws/src/build/hello/prefix_override:/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages:/home/ricbolz/ros2_ws/install/raspimouse_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs'}, 'shell': False}
+[0.975618] (raspimouse_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.001255] (raspimouse_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.007809] (raspimouse_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.015187] (-) TimerEvent: {}
+[1.017772] (raspimouse_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.082219] (raspimouse_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.115500] (-) TimerEvent: {}
+[1.188510] (hello) StdoutLine: {'line': b'running develop\n'}
+[1.197877] (hello) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.198480] (hello) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.200841] (hello) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.200983] (hello) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.219846] (-) TimerEvent: {}
+[1.340592] (-) TimerEvent: {}
+[1.341089] (hello) StdoutLine: {'line': b'running egg_info\n'}
+[1.341604] (hello) StdoutLine: {'line': b'writing hello.egg-info/PKG-INFO\n'}
+[1.344870] (hello) StdoutLine: {'line': b'writing dependency_links to hello.egg-info/dependency_links.txt\n'}
+[1.345886] (hello) StdoutLine: {'line': b'writing entry points to hello.egg-info/entry_points.txt\n'}
+[1.346991] (hello) StdoutLine: {'line': b'writing requirements to hello.egg-info/requires.txt\n'}
+[1.347952] (hello) StdoutLine: {'line': b'writing top-level names to hello.egg-info/top_level.txt\n'}
+[1.350956] (hello) StdoutLine: {'line': b"reading manifest file 'hello.egg-info/SOURCES.txt'\n"}
+[1.352287] (hello) StdoutLine: {'line': b"writing manifest file 'hello.egg-info/SOURCES.txt'\n"}
+[1.353526] (hello) StdoutLine: {'line': b'running build_ext\n'}
+[1.353950] (hello) StdoutLine: {'line': b'Creating /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello.egg-link (link to .)\n'}
+[1.355606] (hello) StdoutLine: {'line': b'Installing hello_node script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello\n'}
+[1.356119] (hello) StdoutLine: {'line': b'Installing hello_publisher script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello\n'}
+[1.356585] (hello) StdoutLine: {'line': b'Installing hello_subscriber script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello\n'}
+[1.357000] (hello) StdoutLine: {'line': b'Installing joypad_mouse_controller script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello\n'}
+[1.357589] (hello) StdoutLine: {'line': b'Installing lifecycle_node_manager script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello\n'}
+[1.357689] (hello) StdoutLine: {'line': b'Installing lightsensor_monitor script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello\n'}
+[1.358367] (hello) StdoutLine: {'line': b'Installing line_follower script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello\n'}
+[1.358854] (hello) StdoutLine: {'line': b'\n'}
+[1.358958] (hello) StdoutLine: {'line': b'Installed /home/ricbolz/ros2_ws/src/build/hello\n'}
+[1.359344] (hello) StdoutLine: {'line': b'running install_data\n'}
+[1.377074] (raspimouse_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.400758] (hello) CommandEnded: {'returncode': 0}
+[1.444398] (-) TimerEvent: {}
+[1.482182] (hello) JobEnded: {'identifier': 'hello', 'rc': 0}
+[1.483725] (mr_exp_samples) JobStarted: {'identifier': 'mr_exp_samples'}
+[1.555425] (-) TimerEvent: {}
+[1.588268] (raspimouse_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.657072] (-) TimerEvent: {}
+[1.761734] (-) TimerEvent: {}
+[1.783165] (raspimouse_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.810593] (raspimouse_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.813878] (raspimouse_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.836739] (raspimouse_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.836898] (raspimouse_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.836995] (raspimouse_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.837035] (raspimouse_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.856964] (raspimouse_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.866337] (-) TimerEvent: {}
+[1.884962] (raspimouse_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.907515] (raspimouse_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.918572] (raspimouse_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.918773] (raspimouse_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.920988] (raspimouse_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.950936] (raspimouse_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.954440] (raspimouse_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ricbolz/ros2_ws/src/build/raspimouse_msgs\n'}
+[1.962801] (raspimouse_msgs) CommandEnded: {'returncode': 0}
+[1.963195] (raspimouse_msgs) JobProgress: {'identifier': 'raspimouse_msgs', 'progress': 'build'}
+[1.963258] (raspimouse_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ricbolz/ros2_ws/src/build/raspimouse_msgs', '--', '-j2', '-l2'], 'cwd': '/home/ricbolz/ros2_ws/src/build/raspimouse_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ricbolz'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ricbolz/ros2_ws/install/raspimouse/lib:/home/ricbolz/ros2_ws/install/raspimouse_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ricbolz'), ('OLDPWD', '/home/ricbolz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1421'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ricbolz/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ricbolz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ricbolz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ricbolz-VirtualBox:@/tmp/.ICE-unix/1401,unix/ricbolz-VirtualBox:/tmp/.ICE-unix/1401'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/477bd760_cfa3_4387_b1a9_594f4751f4f4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DQC4G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.179'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ricbolz/ros2_ws/src/build/raspimouse_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ricbolz/ros2_ws/install/raspimouse_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble')]), 'shell': False}
+[1.976126] (-) TimerEvent: {}
+[2.090476] (raspimouse_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.090654] (-) TimerEvent: {}
+[2.131396] (raspimouse_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.182865] (mr_exp_samples) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ricbolz/ros2_ws/src/build/mr_exp_samples/build', '--no-deps', 'install_data'], 'cwd': '/home/ricbolz/ros2_ws/src/build/mr_exp_samples', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ricbolz', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ricbolz/ros2_ws/install/raspimouse/lib:/home/ricbolz/ros2_ws/install/raspimouse_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ricbolz', 'OLDPWD': '/home/ricbolz', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '1421', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ricbolz/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ricbolz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ricbolz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ricbolz-VirtualBox:@/tmp/.ICE-unix/1401,unix/ricbolz-VirtualBox:/tmp/.ICE-unix/1401', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/477bd760_cfa3_4387_b1a9_594f4751f4f4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DQC4G2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.179', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ricbolz/ros2_ws/src/build/mr_exp_samples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ricbolz/ros2_ws/src/build/mr_exp_samples/prefix_override:/home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages:/home/ricbolz/ros2_ws/install/raspimouse_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs'}, 'shell': False}
+[2.199042] (-) TimerEvent: {}
+[2.303445] (-) TimerEvent: {}
+[2.412527] (-) TimerEvent: {}
+[2.480056] (mr_exp_samples) StdoutLine: {'line': b'running develop\n'}
+[2.488010] (mr_exp_samples) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.488128] (mr_exp_samples) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.489321] (mr_exp_samples) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.489451] (mr_exp_samples) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.603502] (-) TimerEvent: {}
+[2.603864] (raspimouse_msgs) StdoutLine: {'line': b'[  4%] Built target raspimouse_msgs__cpp\n'}
+[2.629574] (raspimouse_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_raspimouse_msgs\n'}
+[2.639067] (raspimouse_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.703746] (-) TimerEvent: {}
+[2.718605] (mr_exp_samples) StdoutLine: {'line': b'running egg_info\n'}
+[2.719148] (mr_exp_samples) StdoutLine: {'line': b'writing mr_exp_samples.egg-info/PKG-INFO\n'}
+[2.727172] (mr_exp_samples) StdoutLine: {'line': b'writing dependency_links to mr_exp_samples.egg-info/dependency_links.txt\n'}
+[2.727913] (mr_exp_samples) StdoutLine: {'line': b'writing entry points to mr_exp_samples.egg-info/entry_points.txt\n'}
+[2.728538] (mr_exp_samples) StdoutLine: {'line': b'writing requirements to mr_exp_samples.egg-info/requires.txt\n'}
+[2.729103] (mr_exp_samples) StdoutLine: {'line': b'writing top-level names to mr_exp_samples.egg-info/top_level.txt\n'}
+[2.731000] (mr_exp_samples) StdoutLine: {'line': b"reading manifest file 'mr_exp_samples.egg-info/SOURCES.txt'\n"}
+[2.732007] (mr_exp_samples) StdoutLine: {'line': b"writing manifest file 'mr_exp_samples.egg-info/SOURCES.txt'\n"}
+[2.734655] (mr_exp_samples) StdoutLine: {'line': b'running build_ext\n'}
+[2.735035] (mr_exp_samples) StdoutLine: {'line': b'Creating /home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages/mr-exp-samples.egg-link (link to .)\n'}
+[2.737565] (mr_exp_samples) StdoutLine: {'line': b'Installing hello_sub_and_pub script to /home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/mr_exp_samples\n'}
+[2.750004] (mr_exp_samples) StdoutLine: {'line': b'Installing joy_teleop script to /home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/mr_exp_samples\n'}
+[2.750175] (mr_exp_samples) StdoutLine: {'line': b'Installing watermark_node script to /home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/mr_exp_samples\n'}
+[2.750217] (mr_exp_samples) StdoutLine: {'line': b'\n'}
+[2.750254] (mr_exp_samples) StdoutLine: {'line': b'Installed /home/ricbolz/ros2_ws/src/build/mr_exp_samples\n'}
+[2.750289] (mr_exp_samples) StdoutLine: {'line': b'running install_data\n'}
+[2.773844] (mr_exp_samples) CommandEnded: {'returncode': 0}
+[2.811055] (-) TimerEvent: {}
+[2.861039] (mr_exp_samples) JobEnded: {'identifier': 'mr_exp_samples', 'rc': 0}
+[2.912138] (-) TimerEvent: {}
+[2.944689] (raspimouse_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/raspimouse_msgs__rosidl_generator_c.dir/rosidl_generator_c/raspimouse_msgs/msg/detail/leds__functions.c.o\x1b[0m\n'}
+[2.969421] (raspimouse_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/raspimouse_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/raspimouse_msgs/msg/leds__type_support.cpp.o\x1b[0m\n'}
+[3.009340] (raspimouse_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/raspimouse_msgs__rosidl_generator_c.dir/rosidl_generator_c/raspimouse_msgs/msg/detail/switches__functions.c.o\x1b[0m\n'}
+[3.013279] (-) TimerEvent: {}
+[3.047414] (raspimouse_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/raspimouse_msgs__rosidl_generator_c.dir/rosidl_generator_c/raspimouse_msgs/msg/detail/light_sensors__functions.c.o\x1b[0m\n'}
+[3.099635] (raspimouse_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libraspimouse_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.136277] (-) TimerEvent: {}
+[3.136597] (raspimouse_msgs) StdoutLine: {'line': b'[ 17%] Built target raspimouse_msgs__rosidl_generator_c\n'}
+[3.150758] (raspimouse_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.203608] (raspimouse_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/raspimouse_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/raspimouse_msgs/msg/switches__type_support.cpp.o\x1b[0m\n'}
+[3.258449] (-) TimerEvent: {}
+[3.362355] (-) TimerEvent: {}
+[3.452368] (raspimouse_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/raspimouse_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/raspimouse_msgs/msg/light_sensors__type_support.cpp.o\x1b[0m\n'}
+[3.507542] (raspimouse_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/raspimouse_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/raspimouse_msgs/msg/detail/dds_fastrtps/leds__type_support.cpp.o\x1b[0m\n'}
+[3.507719] (-) TimerEvent: {}
+[3.618946] (-) TimerEvent: {}
+[3.683574] (raspimouse_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking CXX shared library libraspimouse_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.719160] (-) TimerEvent: {}
+[3.728849] (raspimouse_msgs) StdoutLine: {'line': b'[ 27%] Built target raspimouse_msgs__rosidl_typesupport_cpp\n'}
+[3.742898] (raspimouse_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.819304] (-) TimerEvent: {}
+[3.861677] (raspimouse_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/raspimouse_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/raspimouse_msgs/msg/detail/dds_fastrtps/switches__type_support.cpp.o\x1b[0m\n'}
+[3.921392] (-) TimerEvent: {}
+[4.022454] (-) TimerEvent: {}
+[4.091802] (raspimouse_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/raspimouse_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/raspimouse_msgs/msg/detail/leds__type_support.cpp.o\x1b[0m\n'}
+[4.123945] (-) TimerEvent: {}
+[4.210464] (raspimouse_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/raspimouse_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/raspimouse_msgs/msg/detail/dds_fastrtps/light_sensors__type_support.cpp.o\x1b[0m\n'}
+[4.230473] (-) TimerEvent: {}
+[4.344857] (-) TimerEvent: {}
+[4.424508] (raspimouse_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/raspimouse_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/raspimouse_msgs/msg/detail/switches__type_support.cpp.o\x1b[0m\n'}
+[4.452859] (-) TimerEvent: {}
+[4.532365] (raspimouse_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libraspimouse_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.558056] (-) TimerEvent: {}
+[4.613339] (raspimouse_msgs) StdoutLine: {'line': b'[ 40%] Built target raspimouse_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.725292] (-) TimerEvent: {}
+[4.746564] (raspimouse_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/raspimouse_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/raspimouse_msgs/msg/detail/light_sensors__type_support.cpp.o\x1b[0m\n'}
+[4.817548] (raspimouse_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.818031] (raspimouse_msgs) StdoutLine: {'line': b'creating raspimouse_msgs.egg-info\n'}
+[4.818376] (raspimouse_msgs) StdoutLine: {'line': b'writing raspimouse_msgs.egg-info/PKG-INFO\n'}
+[4.818522] (raspimouse_msgs) StdoutLine: {'line': b'writing dependency_links to raspimouse_msgs.egg-info/dependency_links.txt\n'}
+[4.818652] (raspimouse_msgs) StdoutLine: {'line': b'writing top-level names to raspimouse_msgs.egg-info/top_level.txt\n'}
+[4.818877] (raspimouse_msgs) StdoutLine: {'line': b"writing manifest file 'raspimouse_msgs.egg-info/SOURCES.txt'\n"}
+[4.820189] (raspimouse_msgs) StdoutLine: {'line': b"reading manifest file 'raspimouse_msgs.egg-info/SOURCES.txt'\n"}
+[4.820612] (raspimouse_msgs) StdoutLine: {'line': b"writing manifest file 'raspimouse_msgs.egg-info/SOURCES.txt'\n"}
+[4.841655] (raspimouse_msgs) StdoutLine: {'line': b'[ 42%] Built target ament_cmake_python_build_raspimouse_msgs_egg\n'}
+[4.841823] (-) TimerEvent: {}
+[4.852070] (raspimouse_msgs) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.030651] (-) TimerEvent: {}
+[5.053633] (raspimouse_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libraspimouse_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.101112] (raspimouse_msgs) StdoutLine: {'line': b'[ 46%] Built target raspimouse_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.114721] (raspimouse_msgs) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.131077] (-) TimerEvent: {}
+[5.164555] (raspimouse_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/raspimouse_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/raspimouse_msgs/msg/detail/leds__type_support_c.cpp.o\x1b[0m\n'}
+[5.239058] (-) TimerEvent: {}
+[5.342862] (-) TimerEvent: {}
+[5.427949] (raspimouse_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/raspimouse_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/raspimouse_msgs/msg/detail/leds__type_support.c.o\x1b[0m\n'}
+[5.446529] (-) TimerEvent: {}
+[5.460678] (raspimouse_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/raspimouse_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/raspimouse_msgs/msg/detail/switches__type_support.c.o\x1b[0m\n'}
+[5.469181] (raspimouse_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/raspimouse_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/raspimouse_msgs/msg/detail/switches__type_support_c.cpp.o\x1b[0m\n'}
+[5.496718] (raspimouse_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/raspimouse_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/raspimouse_msgs/msg/detail/light_sensors__type_support.c.o\x1b[0m\n'}
+[5.529226] (raspimouse_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libraspimouse_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.549742] (-) TimerEvent: {}
+[5.560767] (raspimouse_msgs) StdoutLine: {'line': b'[ 61%] Built target raspimouse_msgs__rosidl_typesupport_introspection_c\n'}
+[5.572262] (raspimouse_msgs) StdoutLine: {'line': b'[ 63%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.655804] (-) TimerEvent: {}
+[5.761851] (-) TimerEvent: {}
+[5.768792] (raspimouse_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/raspimouse_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/raspimouse_msgs/msg/detail/light_sensors__type_support_c.cpp.o\x1b[0m\n'}
+[5.850009] (raspimouse_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/raspimouse_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/raspimouse_msgs/msg/leds__type_support.cpp.o\x1b[0m\n'}
+[5.868690] (-) TimerEvent: {}
+[5.888578] (raspimouse_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/raspimouse_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/raspimouse_msgs/msg/switches__type_support.cpp.o\x1b[0m\n'}
+[5.927837] (raspimouse_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/raspimouse_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/raspimouse_msgs/msg/light_sensors__type_support.cpp.o\x1b[0m\n'}
+[5.970179] (-) TimerEvent: {}
+[5.972566] (raspimouse_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libraspimouse_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.024156] (raspimouse_msgs) StdoutLine: {'line': b'[ 74%] Built target raspimouse_msgs__rosidl_typesupport_c\n'}
+[6.070412] (-) TimerEvent: {}
+[6.077944] (raspimouse_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libraspimouse_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.147253] (raspimouse_msgs) StdoutLine: {'line': b'[ 76%] Built target raspimouse_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.170774] (-) TimerEvent: {}
+[6.171234] (raspimouse_msgs) StdoutLine: {'line': b'[ 76%] Built target raspimouse_msgs\n'}
+[6.193883] (raspimouse_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.281677] (-) TimerEvent: {}
+[6.387689] (-) TimerEvent: {}
+[6.523040] (-) TimerEvent: {}
+[6.573290] (raspimouse_msgs) StdoutLine: {'line': b'[ 78%] Built target raspimouse_msgs__py\n'}
+[6.595611] (raspimouse_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/raspimouse_msgs__rosidl_generator_py.dir/rosidl_generator_py/raspimouse_msgs/msg/_leds_s.c.o\x1b[0m\n'}
+[6.595780] (raspimouse_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/raspimouse_msgs__rosidl_generator_py.dir/rosidl_generator_py/raspimouse_msgs/msg/_switches_s.c.o\x1b[0m\n'}
+[6.631657] (-) TimerEvent: {}
+[6.687133] (raspimouse_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/raspimouse_msgs__rosidl_generator_py.dir/rosidl_generator_py/raspimouse_msgs/msg/_light_sensors_s.c.o\x1b[0m\n'}
+[6.737387] (-) TimerEvent: {}
+[6.772913] (raspimouse_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/raspimouse_msgs/libraspimouse_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[6.819550] (raspimouse_msgs) StdoutLine: {'line': b'[ 87%] Built target raspimouse_msgs__rosidl_generator_py\n'}
+[6.837596] (-) TimerEvent: {}
+[6.848923] (raspimouse_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/raspimouse_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/raspimouse_msgs/_raspimouse_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.849535] (raspimouse_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/raspimouse_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/raspimouse_msgs/_raspimouse_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.933647] (raspimouse_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/raspimouse_msgs/raspimouse_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.937419] (raspimouse_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/raspimouse_msgs/raspimouse_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.941523] (-) TimerEvent: {}
+[6.971080] (raspimouse_msgs) StdoutLine: {'line': b'[ 95%] Built target raspimouse_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.976983] (raspimouse_msgs) StdoutLine: {'line': b'[ 95%] Built target raspimouse_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.000780] (raspimouse_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/raspimouse_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/raspimouse_msgs/_raspimouse_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.041886] (-) TimerEvent: {}
+[7.081616] (raspimouse_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/raspimouse_msgs/raspimouse_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.114810] (raspimouse_msgs) StdoutLine: {'line': b'[100%] Built target raspimouse_msgs__rosidl_typesupport_c__pyext\n'}
+[7.125266] (raspimouse_msgs) CommandEnded: {'returncode': 0}
+[7.142162] (-) TimerEvent: {}
+[7.242811] (-) TimerEvent: {}
+[7.324455] (raspimouse_msgs) JobProgress: {'identifier': 'raspimouse_msgs', 'progress': 'install'}
+[7.333067] (raspimouse_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ricbolz/ros2_ws/src/build/raspimouse_msgs'], 'cwd': '/home/ricbolz/ros2_ws/src/build/raspimouse_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ricbolz'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ricbolz/ros2_ws/install/raspimouse/lib:/home/ricbolz/ros2_ws/install/raspimouse_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ricbolz'), ('OLDPWD', '/home/ricbolz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1421'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ricbolz/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ricbolz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ricbolz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ricbolz-VirtualBox:@/tmp/.ICE-unix/1401,unix/ricbolz-VirtualBox:/tmp/.ICE-unix/1401'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/477bd760_cfa3_4387_b1a9_594f4751f4f4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DQC4G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.179'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ricbolz/ros2_ws/src/build/raspimouse_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ricbolz/ros2_ws/install/raspimouse_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble')]), 'shell': False}
+[7.340072] (raspimouse_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.340492] (raspimouse_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.340818] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/ament_index/resource_index/rosidl_interfaces/raspimouse_msgs\n'}
+[7.343655] (-) TimerEvent: {}
+[7.349839] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/leds__functions.h\n'}
+[7.358605] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/leds__struct.h\n'}
+[7.366383] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/leds__type_support.h\n'}
+[7.374642] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/light_sensors__functions.h\n'}
+[7.388605] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/light_sensors__struct.h\n'}
+[7.397763] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/light_sensors__type_support.h\n'}
+[7.407152] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/switches__functions.h\n'}
+[7.416783] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/switches__struct.h\n'}
+[7.424129] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/switches__type_support.h\n'}
+[7.431832] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/leds.h\n'}
+[7.439318] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/light_sensors.h\n'}
+[7.443873] (-) TimerEvent: {}
+[7.447071] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.455290] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/switches.h\n'}
+[7.463277] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/environment/library_path.sh\n'}
+[7.471385] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/environment/library_path.dsv\n'}
+[7.483371] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/leds__rosidl_typesupport_fastrtps_c.h\n'}
+[7.492154] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/light_sensors__rosidl_typesupport_fastrtps_c.h\n'}
+[7.501164] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/switches__rosidl_typesupport_fastrtps_c.h\n'}
+[7.508891] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.516585] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/leds__rosidl_typesupport_introspection_c.h\n'}
+[7.524371] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/light_sensors__rosidl_typesupport_introspection_c.h\n'}
+[7.531869] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/switches__rosidl_typesupport_introspection_c.h\n'}
+[7.539969] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.544388] (-) TimerEvent: {}
+[7.549628] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/leds__builder.hpp\n'}
+[7.557854] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/leds__struct.hpp\n'}
+[7.565668] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/leds__traits.hpp\n'}
+[7.573921] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/light_sensors__builder.hpp\n'}
+[7.582538] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/light_sensors__struct.hpp\n'}
+[7.596999] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/light_sensors__traits.hpp\n'}
+[7.605998] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/switches__builder.hpp\n'}
+[7.613787] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/switches__struct.hpp\n'}
+[7.621704] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/switches__traits.hpp\n'}
+[7.629232] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/leds.hpp\n'}
+[7.636942] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/light_sensors.hpp\n'}
+[7.644458] (-) TimerEvent: {}
+[7.645219] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/switches.hpp\n'}
+[7.653266] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/leds__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.661032] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/light_sensors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.668497] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/switches__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.677327] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.691210] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/leds__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.700445] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/light_sensors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.708289] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/include/raspimouse_msgs/raspimouse_msgs/msg/detail/switches__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.717169] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/environment/pythonpath.sh\n'}
+[7.725287] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/environment/pythonpath.dsv\n'}
+[7.734677] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs-1.1.2-py3.10.egg-info/PKG-INFO\n'}
+[7.746689] (-) TimerEvent: {}
+[7.748284] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs-1.1.2-py3.10.egg-info/SOURCES.txt\n'}
+[7.757978] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs-1.1.2-py3.10.egg-info/dependency_links.txt\n'}
+[7.766166] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs-1.1.2-py3.10.egg-info/top_level.txt\n'}
+[7.775671] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/__init__.py\n'}
+[7.783945] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/_raspimouse_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[7.795788] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/_raspimouse_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.806065] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/_raspimouse_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.814866] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/libraspimouse_msgs__rosidl_generator_py.so\n'}
+[7.822555] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/msg/__init__.py\n'}
+[7.830753] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/msg/_leds.py\n'}
+[7.838143] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/msg/_leds_s.c\n'}
+[7.846006] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/msg/_light_sensors.py\n'}
+[7.846939] (-) TimerEvent: {}
+[7.853323] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/msg/_light_sensors_s.c\n'}
+[7.860949] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/msg/_switches.py\n'}
+[7.869125] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/msg/_switches_s.c\n'}
+[7.879124] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/raspimouse_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.893445] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/raspimouse_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.901635] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/raspimouse_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.909256] (raspimouse_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/raspimouse_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.909483] (raspimouse_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/raspimouse_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.909667] (raspimouse_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/raspimouse_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.909853] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/msg/Leds.idl\n'}
+[7.917525] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/msg/Switches.idl\n'}
+[7.925428] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/msg/LightSensors.idl\n'}
+[7.932813] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/msg/Leds.msg\n'}
+[7.940665] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/msg/Switches.msg\n'}
+[7.947126] (-) TimerEvent: {}
+[7.948781] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/msg/LightSensors.msg\n'}
+[7.956786] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/ament_index/resource_index/package_run_dependencies/raspimouse_msgs\n'}
+[7.965031] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/ament_index/resource_index/parent_prefix_path/raspimouse_msgs\n'}
+[7.974424] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/environment/ament_prefix_path.sh\n'}
+[7.981282] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/environment/ament_prefix_path.dsv\n'}
+[7.991688] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/environment/path.sh\n'}
+[8.004896] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/environment/path.dsv\n'}
+[8.013647] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/local_setup.bash\n'}
+[8.022362] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/local_setup.sh\n'}
+[8.029926] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/local_setup.zsh\n'}
+[8.037668] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/local_setup.dsv\n'}
+[8.045235] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/package.dsv\n'}
+[8.047926] (-) TimerEvent: {}
+[8.053463] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/ament_index/resource_index/packages/raspimouse_msgs\n'}
+[8.061819] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[8.069722] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.079057] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.096188] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.104885] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.113914] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.121931] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.129614] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/raspimouse_msgsConfig.cmake\n'}
+[8.137315] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/raspimouse_msgsConfig-version.cmake\n'}
+[8.144902] (raspimouse_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/package.xml\n'}
+[8.148051] (-) TimerEvent: {}
+[8.155561] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/libraspimouse_msgs__rosidl_generator_c.so\n'}
+[8.155860] (raspimouse_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/libraspimouse_msgs__rosidl_generator_c.so" to ""\n'}
+[8.155914] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/libraspimouse_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[8.156064] (raspimouse_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/libraspimouse_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.156120] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/libraspimouse_msgs__rosidl_typesupport_introspection_c.so\n'}
+[8.156322] (raspimouse_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/libraspimouse_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.156462] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/libraspimouse_msgs__rosidl_typesupport_c.so\n'}
+[8.156627] (raspimouse_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/libraspimouse_msgs__rosidl_typesupport_c.so" to ""\n'}
+[8.156782] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/libraspimouse_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.156961] (raspimouse_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/libraspimouse_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.157112] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/libraspimouse_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[8.157281] (raspimouse_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/libraspimouse_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.157416] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/libraspimouse_msgs__rosidl_typesupport_cpp.so\n'}
+[8.157582] (raspimouse_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/libraspimouse_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[8.190904] (raspimouse_msgs) StdoutLine: {'line': b"Listing '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs'...\n"}
+[8.191064] (raspimouse_msgs) StdoutLine: {'line': b"Compiling '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/__init__.py'...\n"}
+[8.191105] (raspimouse_msgs) StdoutLine: {'line': b"Listing '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/msg'...\n"}
+[8.191141] (raspimouse_msgs) StdoutLine: {'line': b"Compiling '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/msg/__init__.py'...\n"}
+[8.191178] (raspimouse_msgs) StdoutLine: {'line': b"Compiling '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/msg/_leds.py'...\n"}
+[8.191213] (raspimouse_msgs) StdoutLine: {'line': b"Compiling '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/msg/_light_sensors.py'...\n"}
+[8.191248] (raspimouse_msgs) StdoutLine: {'line': b"Compiling '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages/raspimouse_msgs/msg/_switches.py'...\n"}
+[8.194304] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/libraspimouse_msgs__rosidl_generator_py.so\n'}
+[8.194639] (raspimouse_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/libraspimouse_msgs__rosidl_generator_py.so" to ""\n'}
+[8.194789] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/export_raspimouse_msgs__rosidl_generator_cExport.cmake\n'}
+[8.194909] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/export_raspimouse_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.195083] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/export_raspimouse_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.195218] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/export_raspimouse_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.195397] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/raspimouse_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.195569] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/raspimouse_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.195730] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/raspimouse_msgs__rosidl_typesupport_cExport.cmake\n'}
+[8.195872] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/raspimouse_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.195990] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/export_raspimouse_msgs__rosidl_generator_cppExport.cmake\n'}
+[8.196122] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/export_raspimouse_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.196291] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/export_raspimouse_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.196461] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/raspimouse_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.196603] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/raspimouse_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.196751] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/raspimouse_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[8.197023] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/raspimouse_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.197100] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/export_raspimouse_msgs__rosidl_generator_pyExport.cmake\n'}
+[8.197344] (raspimouse_msgs) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake/export_raspimouse_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.203258] (raspimouse_msgs) CommandEnded: {'returncode': 0}
+[8.252416] (-) TimerEvent: {}
+[8.353060] (-) TimerEvent: {}
+[8.454364] (-) TimerEvent: {}
+[8.522867] (raspimouse_msgs) JobEnded: {'identifier': 'raspimouse_msgs', 'rc': 0}
+[8.524798] (raspimouse) JobStarted: {'identifier': 'raspimouse'}
+[8.560821] (-) TimerEvent: {}
+[8.592065] (raspimouse) JobProgress: {'identifier': 'raspimouse', 'progress': 'cmake'}
+[8.593382] (raspimouse) Command: {'cmd': ['/usr/bin/cmake', '/home/ricbolz/ros2_ws/src/raspimouse2/raspimouse', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ricbolz/ros2_ws/src/install/raspimouse'], 'cwd': '/home/ricbolz/ros2_ws/src/build/raspimouse', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ricbolz'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib:/home/ricbolz/ros2_ws/install/raspimouse/lib:/home/ricbolz/ros2_ws/install/raspimouse_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ricbolz'), ('OLDPWD', '/home/ricbolz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1421'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ricbolz/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ricbolz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ricbolz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ricbolz-VirtualBox:@/tmp/.ICE-unix/1401,unix/ricbolz-VirtualBox:/tmp/.ICE-unix/1401'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/477bd760_cfa3_4387_b1a9_594f4751f4f4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DQC4G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.179'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ricbolz/ros2_ws/src/build/raspimouse'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages:/home/ricbolz/ros2_ws/install/raspimouse_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble')]), 'shell': False}
+[8.650082] (raspimouse) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[8.661022] (-) TimerEvent: {}
+[8.710779] (raspimouse) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[8.722689] (raspimouse) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.761309] (-) TimerEvent: {}
+[8.793770] (raspimouse) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.802535] (raspimouse) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.803015] (raspimouse) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.803506] (raspimouse) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.805818] (raspimouse) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.867460] (-) TimerEvent: {}
+[8.888924] (raspimouse) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.890764] (raspimouse) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.891018] (raspimouse) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.891394] (raspimouse) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.893191] (raspimouse) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.967678] (-) TimerEvent: {}
+[9.058937] (raspimouse) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[9.068170] (-) TimerEvent: {}
+[9.106024] (raspimouse) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[9.132531] (raspimouse) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[9.165511] (raspimouse) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.168949] (-) TimerEvent: {}
+[9.169595] (raspimouse) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.175945] (raspimouse) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.186657] (raspimouse) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.214021] (raspimouse) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.268262] (raspimouse) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.269030] (-) TimerEvent: {}
+[9.271249] (raspimouse) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.369649] (-) TimerEvent: {}
+[9.375858] (raspimouse) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[9.396118] (raspimouse) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[9.434791] (raspimouse) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.441965] (raspimouse) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.470084] (-) TimerEvent: {}
+[9.521065] (raspimouse) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.521510] (raspimouse) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.570355] (-) TimerEvent: {}
+[9.601970] (raspimouse) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.602634] (raspimouse) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.680560] (-) TimerEvent: {}
+[9.722859] (raspimouse) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[9.756734] (raspimouse) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[9.796725] (-) TimerEvent: {}
+[9.818889] (raspimouse) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[9.836977] (raspimouse) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[9.875628] (raspimouse) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[9.948714] (-) TimerEvent: {}
+[9.949125] (raspimouse) StdoutLine: {'line': b'-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)\n'}
+[9.956423] (raspimouse) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[10.147032] (raspimouse) StdoutLine: {'line': b'-- Found raspimouse_msgs: 1.1.2 (/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake)\n'}
+[10.147201] (-) TimerEvent: {}
+[10.169480] (raspimouse) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.255950] (-) TimerEvent: {}
+[10.256183] (raspimouse) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.257095] (raspimouse) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.257343] (raspimouse) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ricbolz/ros2_ws/src/raspimouse2/raspimouse/include\n'}
+[10.257424] (raspimouse) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.258294] (raspimouse) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[10.258362] (raspimouse) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[10.258661] (raspimouse) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.259313] (raspimouse) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.259965] (raspimouse) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[10.260804] (raspimouse) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.260863] (raspimouse) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.261200] (raspimouse) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.263421] (raspimouse) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.279190] (raspimouse) StdoutLine: {'line': b'-- Generating done\n'}
+[10.280811] (raspimouse) StdoutLine: {'line': b'-- Build files have been written to: /home/ricbolz/ros2_ws/src/build/raspimouse\n'}
+[10.289226] (raspimouse) CommandEnded: {'returncode': 0}
+[10.289981] (raspimouse) JobProgress: {'identifier': 'raspimouse', 'progress': 'build'}
+[10.291360] (raspimouse) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ricbolz/ros2_ws/src/build/raspimouse', '--', '-j2', '-l2'], 'cwd': '/home/ricbolz/ros2_ws/src/build/raspimouse', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ricbolz'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib:/home/ricbolz/ros2_ws/install/raspimouse/lib:/home/ricbolz/ros2_ws/install/raspimouse_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ricbolz'), ('OLDPWD', '/home/ricbolz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1421'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ricbolz/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ricbolz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ricbolz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ricbolz-VirtualBox:@/tmp/.ICE-unix/1401,unix/ricbolz-VirtualBox:/tmp/.ICE-unix/1401'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/477bd760_cfa3_4387_b1a9_594f4751f4f4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DQC4G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.179'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ricbolz/ros2_ws/src/build/raspimouse'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages:/home/ricbolz/ros2_ws/install/raspimouse_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble')]), 'shell': False}
+[10.357358] (-) TimerEvent: {}
+[10.370600] (raspimouse) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/raspimouse_component.dir/src/raspimouse_component.cpp.o\x1b[0m\n'}
+[10.462817] (-) TimerEvent: {}
+[10.567323] (-) TimerEvent: {}
+[10.671547] (-) TimerEvent: {}
+[10.775225] (-) TimerEvent: {}
+[10.879171] (-) TimerEvent: {}
+[11.054302] (-) TimerEvent: {}
+[11.168042] (-) TimerEvent: {}
+[11.275138] (-) TimerEvent: {}
+[11.535347] (-) TimerEvent: {}
+[11.743405] (-) TimerEvent: {}
+[12.231304] (-) TimerEvent: {}
+[12.339465] (-) TimerEvent: {}
+[12.445281] (-) TimerEvent: {}
+[12.927424] (-) TimerEvent: {}
+[13.055366] (-) TimerEvent: {}
+[13.174951] (-) TimerEvent: {}
+[13.327285] (-) TimerEvent: {}
+[14.341612] (-) TimerEvent: {}
+[15.342737] (-) TimerEvent: {}
+[16.347926] (-) TimerEvent: {}
+[17.024258] (-) TimerEvent: {}
+[17.343058] (-) TimerEvent: {}
+[18.345774] (-) TimerEvent: {}
+[18.666709] (-) TimerEvent: {}
+[19.003607] (-) TimerEvent: {}
+[19.104429] (-) TimerEvent: {}
+[19.348636] (-) TimerEvent: {}
+[19.634393] (-) TimerEvent: {}
+[19.976909] (-) TimerEvent: {}
+[20.081285] (-) TimerEvent: {}
+[20.186784] (-) TimerEvent: {}
+[20.302127] (-) TimerEvent: {}
+[20.410931] (-) TimerEvent: {}
+[20.746981] (-) TimerEvent: {}
+[20.945083] (-) TimerEvent: {}
+[21.340888] (-) TimerEvent: {}
+[21.608467] (-) TimerEvent: {}
+[21.710097] (-) TimerEvent: {}
+[22.346322] (-) TimerEvent: {}
+[22.446839] (-) TimerEvent: {}
+[22.547381] (-) TimerEvent: {}
+[22.647870] (-) TimerEvent: {}
+[22.844904] (-) TimerEvent: {}
+[22.990845] (-) TimerEvent: {}
+[23.011858] (raspimouse) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libraspimouse_component.so\x1b[0m\n'}
+[23.100264] (-) TimerEvent: {}
+[23.340976] (-) TimerEvent: {}
+[23.858722] (-) TimerEvent: {}
+[23.880746] (raspimouse) StdoutLine: {'line': b'[ 50%] Built target raspimouse_component\n'}
+[23.913419] (raspimouse) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/raspimouse.dir/src/raspimouse.cpp.o\x1b[0m\n'}
+[23.962044] (-) TimerEvent: {}
+[24.086654] (-) TimerEvent: {}
+[24.347966] (-) TimerEvent: {}
+[25.354893] (-) TimerEvent: {}
+[25.465797] (-) TimerEvent: {}
+[26.210118] (-) TimerEvent: {}
+[26.303105] (raspimouse) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable raspimouse\x1b[0m\n'}
+[26.310309] (-) TimerEvent: {}
+[26.619056] (-) TimerEvent: {}
+[26.635553] (raspimouse) StdoutLine: {'line': b'[100%] Built target raspimouse\n'}
+[26.647804] (raspimouse) CommandEnded: {'returncode': 0}
+[26.701513] (raspimouse) JobProgress: {'identifier': 'raspimouse', 'progress': 'install'}
+[26.701577] (raspimouse) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ricbolz/ros2_ws/src/build/raspimouse'], 'cwd': '/home/ricbolz/ros2_ws/src/build/raspimouse', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ricbolz'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib:/home/ricbolz/ros2_ws/install/raspimouse/lib:/home/ricbolz/ros2_ws/install/raspimouse_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ricbolz'), ('OLDPWD', '/home/ricbolz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1421'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ricbolz/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ricbolz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ricbolz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ricbolz-VirtualBox:@/tmp/.ICE-unix/1401,unix/ricbolz-VirtualBox:/tmp/.ICE-unix/1401'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/477bd760_cfa3_4387_b1a9_594f4751f4f4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DQC4G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.179'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ricbolz/ros2_ws/src/build/raspimouse'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages:/home/ricbolz/ros2_ws/install/raspimouse_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble')]), 'shell': False}
+[26.708927] (raspimouse) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.709411] (raspimouse) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[26.709668] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/environment/library_path.sh\n'}
+[26.718508] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/environment/library_path.dsv\n'}
+[26.719424] (-) TimerEvent: {}
+[26.727257] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/include/raspimouse/raspimouse_component.hpp\n'}
+[26.735657] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse//launch/raspimouse.launch.py\n'}
+[26.743688] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse//config/params.yaml\n'}
+[26.751852] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/lib/raspimouse/raspimouse\n'}
+[26.761491] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/ament_index/resource_index/package_run_dependencies/raspimouse\n'}
+[26.771463] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/ament_index/resource_index/parent_prefix_path/raspimouse\n'}
+[26.780278] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/environment/ament_prefix_path.sh\n'}
+[26.788543] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/environment/ament_prefix_path.dsv\n'}
+[26.798611] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/environment/path.sh\n'}
+[26.807137] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/environment/path.dsv\n'}
+[26.824667] (-) TimerEvent: {}
+[26.826621] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/local_setup.bash\n'}
+[26.835373] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/local_setup.sh\n'}
+[26.843883] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/local_setup.zsh\n'}
+[26.851700] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/local_setup.dsv\n'}
+[26.861477] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/package.dsv\n'}
+[26.875653] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/ament_index/resource_index/packages/raspimouse\n'}
+[26.884036] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/ament_index/resource_index/rclcpp_components/raspimouse\n'}
+[26.891857] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[26.899347] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.908069] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.915701] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[26.923439] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/raspimouseConfig.cmake\n'}
+[26.924982] (-) TimerEvent: {}
+[26.931381] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/raspimouseConfig-version.cmake\n'}
+[26.939739] (raspimouse) StdoutLine: {'line': b'-- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/package.xml\n'}
+[26.947166] (raspimouse) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse/lib/libraspimouse_component.so\n'}
+[26.959199] (raspimouse) StdoutLine: {'line': b'-- Set runtime path of "/home/ricbolz/ros2_ws/src/install/raspimouse/lib/libraspimouse_component.so" to ""\n'}
+[26.959386] (raspimouse) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/export_raspimouse_componentExport.cmake\n'}
+[26.959427] (raspimouse) StdoutLine: {'line': b'-- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/export_raspimouse_componentExport-noconfig.cmake\n'}
+[26.961366] (raspimouse) CommandEnded: {'returncode': 0}
+[27.025183] (-) TimerEvent: {}
+[27.119322] (raspimouse) JobEnded: {'identifier': 'raspimouse', 'rc': 0}
+[27.120489] (-) EventReactorShutdown: {}

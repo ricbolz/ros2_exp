@@ -1,0 +1,3 @@
+/home/ricbolz/ros2_ws/src/install/raspimouse/lib/libraspimouse_component.so
+/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/export_raspimouse_componentExport.cmake
+/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/export_raspimouse_componentExport-noconfig.cmake

@@ -1,0 +1,27 @@
+[0.714s] Invoking command in '/home/ricbolz/ros2_ws/src/build/hello': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/hello/prefix_override:/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ricbolz/ros2_ws/src/build/hello/build --no-deps install_data
+[0.904s] running develop
+[0.905s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.905s]   warnings.warn(
+[0.906s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.906s]   warnings.warn(
+[1.020s] running egg_info
+[1.020s] writing hello.egg-info/PKG-INFO
+[1.021s] writing dependency_links to hello.egg-info/dependency_links.txt
+[1.022s] writing entry points to hello.egg-info/entry_points.txt
+[1.023s] writing requirements to hello.egg-info/requires.txt
+[1.024s] writing top-level names to hello.egg-info/top_level.txt
+[1.027s] reading manifest file 'hello.egg-info/SOURCES.txt'
+[1.028s] writing manifest file 'hello.egg-info/SOURCES.txt'
+[1.029s] running build_ext
+[1.029s] Creating /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello.egg-link (link to .)
+[1.030s] Installing hello_node script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[1.031s] Installing hello_publisher script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[1.031s] Installing hello_subscriber script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[1.032s] Installing joypad_mouse_controller script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[1.032s] Installing lifecycle_node_manager script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[1.032s] Installing lightsensor_monitor script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[1.032s] Installing line_follower script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[1.033s] 
+[1.033s] Installed /home/ricbolz/ros2_ws/src/build/hello
+[1.033s] running install_data
+[1.053s] Invoked command in '/home/ricbolz/ros2_ws/src/build/hello' returned '0': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/hello/prefix_override:/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ricbolz/ros2_ws/src/build/hello/build --no-deps install_data

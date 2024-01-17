@@ -1,0 +1,1 @@
+/home/ricbolz/ros2_ws/src/build/raspimouse/ament_cmake_environment_hooks/local_setup.zsh

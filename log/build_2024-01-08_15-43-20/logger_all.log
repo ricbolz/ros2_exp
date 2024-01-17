@@ -1,0 +1,357 @@
+[0.709s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.709s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f504a0baef0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f504a0b9ae0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f504a0b9ae0>>)
+[0.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.741s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ricbolz/ros2_ws/src'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(hello) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(hello) by extension 'ignore'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(hello) by extension 'ignore_ament_install'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(hello) by extensions ['colcon_pkg']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(hello) by extension 'colcon_pkg'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(hello) by extensions ['colcon_meta']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(hello) by extension 'colcon_meta'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(hello) by extensions ['ros']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(hello) by extension 'ros'
+[0.752s] DEBUG:colcon.colcon_core.package_identification:Package 'hello' with type 'ros.ament_python' and name 'hello'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(mr_exp_samples) by extensions ['ignore', 'ignore_ament_install']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(mr_exp_samples) by extension 'ignore'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(mr_exp_samples) by extension 'ignore_ament_install'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(mr_exp_samples) by extensions ['colcon_pkg']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(mr_exp_samples) by extension 'colcon_pkg'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(mr_exp_samples) by extensions ['colcon_meta']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(mr_exp_samples) by extension 'colcon_meta'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(mr_exp_samples) by extensions ['ros']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(mr_exp_samples) by extension 'ros'
+[0.754s] DEBUG:colcon.colcon_core.package_identification:Package 'mr_exp_samples' with type 'ros.ament_python' and name 'mr_exp_samples'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2) by extension 'ignore_ament_install'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2) by extensions ['colcon_pkg']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2) by extension 'colcon_pkg'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2) by extensions ['colcon_meta']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2) by extension 'colcon_meta'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2) by extensions ['ros']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2) by extension 'ros'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2) by extensions ['cmake', 'python']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2) by extension 'cmake'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2) by extension 'python'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2) by extensions ['python_setup_py']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2) by extension 'python_setup_py'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse) by extensions ['ignore', 'ignore_ament_install']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse) by extension 'ignore'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse) by extension 'ignore_ament_install'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse) by extensions ['colcon_pkg']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse) by extension 'colcon_pkg'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse) by extensions ['colcon_meta']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse) by extension 'colcon_meta'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse) by extensions ['ros']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse) by extension 'ros'
+[0.755s] DEBUG:colcon.colcon_core.package_identification:Package 'raspimouse2/raspimouse' with type 'ros.ament_cmake' and name 'raspimouse'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse_msgs) by extension 'ignore'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse_msgs) by extension 'ignore_ament_install'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse_msgs) by extensions ['colcon_pkg']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse_msgs) by extension 'colcon_pkg'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse_msgs) by extensions ['colcon_meta']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse_msgs) by extension 'colcon_meta'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse_msgs) by extensions ['ros']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse2/raspimouse_msgs) by extension 'ros'
+[0.756s] DEBUG:colcon.colcon_core.package_identification:Package 'raspimouse2/raspimouse_msgs' with type 'ros.ament_cmake' and name 'raspimouse_msgs'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse_ros2_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse_ros2_examples) by extension 'ignore'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse_ros2_examples) by extension 'ignore_ament_install'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse_ros2_examples) by extensions ['colcon_pkg']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse_ros2_examples) by extension 'colcon_pkg'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse_ros2_examples) by extensions ['colcon_meta']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse_ros2_examples) by extension 'colcon_meta'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse_ros2_examples) by extensions ['ros']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse_ros2_examples) by extension 'ros'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse_ros2_examples) by extensions ['cmake', 'python']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse_ros2_examples) by extension 'cmake'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse_ros2_examples) by extension 'python'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse_ros2_examples) by extensions ['python_setup_py']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(raspimouse_ros2_examples) by extension 'python_setup_py'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(text_to_speech) by extensions ['ignore', 'ignore_ament_install']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(text_to_speech) by extension 'ignore'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(text_to_speech) by extension 'ignore_ament_install'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(text_to_speech) by extensions ['colcon_pkg']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(text_to_speech) by extension 'colcon_pkg'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(text_to_speech) by extensions ['colcon_meta']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(text_to_speech) by extension 'colcon_meta'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(text_to_speech) by extensions ['ros']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(text_to_speech) by extension 'ros'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(text_to_speech) by extensions ['cmake', 'python']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(text_to_speech) by extension 'cmake'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(text_to_speech) by extension 'python'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(text_to_speech) by extensions ['python_setup_py']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(text_to_speech) by extension 'python_setup_py'
+[0.757s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.757s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.842s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ricbolz/ros2_ws/install
+[0.852s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[0.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'hello' build argument 'cmake_args' from command line to 'None'
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'hello' build argument 'cmake_target' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'hello' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'hello' build argument 'cmake_clean_cache' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'hello' build argument 'cmake_clean_first' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'hello' build argument 'cmake_force_configure' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'hello' build argument 'ament_cmake_args' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'hello' build argument 'catkin_cmake_args' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'hello' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.926s] DEBUG:colcon.colcon_core.verb:Building package 'hello' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ricbolz/ros2_ws/src/build/hello', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ricbolz/ros2_ws/src/install/hello', 'merge_install': False, 'path': '/home/ricbolz/ros2_ws/src/hello', 'symlink_install': False, 'test_result_base': None}
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'mr_exp_samples' build argument 'cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'mr_exp_samples' build argument 'cmake_target' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'mr_exp_samples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'mr_exp_samples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'mr_exp_samples' build argument 'cmake_clean_first' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'mr_exp_samples' build argument 'cmake_force_configure' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'mr_exp_samples' build argument 'ament_cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'mr_exp_samples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'mr_exp_samples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.937s] DEBUG:colcon.colcon_core.verb:Building package 'mr_exp_samples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ricbolz/ros2_ws/src/build/mr_exp_samples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ricbolz/ros2_ws/src/install/mr_exp_samples', 'merge_install': False, 'path': '/home/ricbolz/ros2_ws/src/mr_exp_samples', 'symlink_install': False, 'test_result_base': None}
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'raspimouse_msgs' build argument 'cmake_args' from command line to 'None'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'raspimouse_msgs' build argument 'cmake_target' from command line to 'None'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'raspimouse_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'raspimouse_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'raspimouse_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'raspimouse_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'raspimouse_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'raspimouse_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'raspimouse_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.947s] DEBUG:colcon.colcon_core.verb:Building package 'raspimouse_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ricbolz/ros2_ws/src/build/raspimouse_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs', 'merge_install': False, 'path': '/home/ricbolz/ros2_ws/src/raspimouse2/raspimouse_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'raspimouse' build argument 'cmake_args' from command line to 'None'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'raspimouse' build argument 'cmake_target' from command line to 'None'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'raspimouse' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'raspimouse' build argument 'cmake_clean_cache' from command line to 'False'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'raspimouse' build argument 'cmake_clean_first' from command line to 'False'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'raspimouse' build argument 'cmake_force_configure' from command line to 'False'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'raspimouse' build argument 'ament_cmake_args' from command line to 'None'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'raspimouse' build argument 'catkin_cmake_args' from command line to 'None'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'raspimouse' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.957s] DEBUG:colcon.colcon_core.verb:Building package 'raspimouse' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ricbolz/ros2_ws/src/build/raspimouse', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ricbolz/ros2_ws/src/install/raspimouse', 'merge_install': False, 'path': '/home/ricbolz/ros2_ws/src/raspimouse2/raspimouse', 'symlink_install': False, 'test_result_base': None}
+[0.968s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.980s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.980s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ricbolz/ros2_ws/src/raspimouse2/raspimouse_msgs' with build type 'ament_cmake'
+[0.980s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ricbolz/ros2_ws/src/raspimouse2/raspimouse_msgs'
+[0.994s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.994s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.994s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.051s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ricbolz/ros2_ws/src/hello' with build type 'ament_python'
+[1.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello', 'ament_prefix_path')
+[1.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/hello/share/hello/hook/ament_prefix_path.ps1'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ricbolz/ros2_ws/src/install/hello/share/hello/hook/ament_prefix_path.dsv'
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/hello/share/hello/hook/ament_prefix_path.sh'
+[1.108s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.108s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ricbolz/ros2_ws/src/build/raspimouse_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ricbolz/ros2_ws/src/raspimouse2/raspimouse_msgs -DCMAKE_INSTALL_PREFIX=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs
+[1.565s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ricbolz/ros2_ws/src/hello'
+[1.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.582s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ricbolz/ros2_ws/src/build/hello': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/hello/prefix_override:/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ricbolz/ros2_ws/src/build/hello/build
+[2.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ricbolz/ros2_ws/src/build/hello' returned '0': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/hello/prefix_override:/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ricbolz/ros2_ws/src/build/hello/build
+[2.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ricbolz/ros2_ws/src/hello': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/hello/prefix_override:/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hello build --build-base /home/ricbolz/ros2_ws/src/build/hello/build install --record /home/ricbolz/ros2_ws/src/build/hello/install.log --single-version-externally-managed
+[3.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ricbolz/ros2_ws/src/build/raspimouse_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ricbolz/ros2_ws/src/raspimouse2/raspimouse_msgs -DCMAKE_INSTALL_PREFIX=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs
+[3.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ricbolz/ros2_ws/src/build/raspimouse_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ricbolz/ros2_ws/src/build/raspimouse_msgs -- -j2 -l2
+[3.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ricbolz/ros2_ws/src/hello' returned '0': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/hello/prefix_override:/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hello build --build-base /home/ricbolz/ros2_ws/src/build/hello/build install --record /home/ricbolz/ros2_ws/src/build/hello/install.log --single-version-externally-managed
+[3.562s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/hello' for CMake module files
+[3.563s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/hello' for CMake config files
+[3.563s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/hello/lib'
+[3.563s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/hello/bin'
+[3.564s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/hello/lib/pkgconfig/hello.pc'
+[3.564s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages'
+[3.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello', 'pythonpath')
+[3.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/hello/share/hello/hook/pythonpath.ps1'
+[3.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ricbolz/ros2_ws/src/install/hello/share/hello/hook/pythonpath.dsv'
+[3.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/hello/share/hello/hook/pythonpath.sh'
+[3.621s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/hello/bin'
+[3.621s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hello)
+[3.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/hello/share/hello/package.ps1'
+[3.676s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ricbolz/ros2_ws/src/install/hello/share/hello/package.dsv'
+[3.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/hello/share/hello/package.sh'
+[3.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/hello/share/hello/package.bash'
+[3.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/hello/share/hello/package.zsh'
+[3.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ricbolz/ros2_ws/src/install/hello/share/colcon-core/packages/hello)
+[3.687s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ricbolz/ros2_ws/src/mr_exp_samples' with build type 'ament_python'
+[3.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('mr_exp_samples', 'ament_prefix_path')
+[3.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/mr_exp_samples/share/mr_exp_samples/hook/ament_prefix_path.ps1'
+[3.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ricbolz/ros2_ws/src/install/mr_exp_samples/share/mr_exp_samples/hook/ament_prefix_path.dsv'
+[3.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/mr_exp_samples/share/mr_exp_samples/hook/ament_prefix_path.sh'
+[3.821s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.821s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.491s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ricbolz/ros2_ws/src/mr_exp_samples'
+[4.510s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ricbolz/ros2_ws/src/build/raspimouse_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ricbolz/ros2_ws/src/build/raspimouse_msgs -- -j2 -l2
+[4.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ricbolz/ros2_ws/src/build/mr_exp_samples': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/mr_exp_samples/prefix_override:/home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ricbolz/ros2_ws/src/build/mr_exp_samples/build
+[5.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ricbolz/ros2_ws/src/build/raspimouse_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ricbolz/ros2_ws/src/build/raspimouse_msgs
+[5.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ricbolz/ros2_ws/src/build/mr_exp_samples' returned '0': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/mr_exp_samples/prefix_override:/home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ricbolz/ros2_ws/src/build/mr_exp_samples/build
+[5.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ricbolz/ros2_ws/src/mr_exp_samples': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/mr_exp_samples/prefix_override:/home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mr_exp_samples build --build-base /home/ricbolz/ros2_ws/src/build/mr_exp_samples/build install --record /home/ricbolz/ros2_ws/src/build/mr_exp_samples/install.log --single-version-externally-managed
+[5.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(raspimouse_msgs)
+[5.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ricbolz/ros2_ws/src/build/raspimouse_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ricbolz/ros2_ws/src/build/raspimouse_msgs
+[5.903s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs' for CMake module files
+[5.904s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs' for CMake config files
+[5.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('raspimouse_msgs', 'cmake_prefix_path')
+[5.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/hook/cmake_prefix_path.ps1'
+[5.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/hook/cmake_prefix_path.dsv'
+[5.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/hook/cmake_prefix_path.sh'
+[5.952s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib'
+[5.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('raspimouse_msgs', 'ld_library_path_lib')
+[5.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/hook/ld_library_path_lib.ps1'
+[5.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/hook/ld_library_path_lib.dsv'
+[5.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/hook/ld_library_path_lib.sh'
+[5.984s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/bin'
+[5.985s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/pkgconfig/raspimouse_msgs.pc'
+[5.985s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/python3.10/site-packages'
+[5.985s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/bin'
+[6.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/package.ps1'
+[6.025s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/package.dsv'
+[6.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/package.sh'
+[6.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/package.bash'
+[6.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/package.zsh'
+[6.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/colcon-core/packages/raspimouse_msgs)
+[6.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ricbolz/ros2_ws/src/mr_exp_samples' returned '0': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/mr_exp_samples/prefix_override:/home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mr_exp_samples build --build-base /home/ricbolz/ros2_ws/src/build/mr_exp_samples/build install --record /home/ricbolz/ros2_ws/src/build/mr_exp_samples/install.log --single-version-externally-managed
+[6.133s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/mr_exp_samples' for CMake module files
+[6.136s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/mr_exp_samples' for CMake config files
+[6.137s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib'
+[6.137s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/mr_exp_samples/bin'
+[6.137s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/pkgconfig/mr_exp_samples.pc'
+[6.137s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages'
+[6.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('mr_exp_samples', 'pythonpath')
+[6.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/mr_exp_samples/share/mr_exp_samples/hook/pythonpath.ps1'
+[6.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ricbolz/ros2_ws/src/install/mr_exp_samples/share/mr_exp_samples/hook/pythonpath.dsv'
+[6.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/mr_exp_samples/share/mr_exp_samples/hook/pythonpath.sh'
+[6.162s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/mr_exp_samples/bin'
+[6.162s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mr_exp_samples)
+[6.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/mr_exp_samples/share/mr_exp_samples/package.ps1'
+[6.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ricbolz/ros2_ws/src/install/mr_exp_samples/share/mr_exp_samples/package.dsv'
+[6.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/mr_exp_samples/share/mr_exp_samples/package.sh'
+[6.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/mr_exp_samples/share/mr_exp_samples/package.bash'
+[6.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/mr_exp_samples/share/mr_exp_samples/package.zsh'
+[6.186s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ricbolz/ros2_ws/src/install/mr_exp_samples/share/colcon-core/packages/mr_exp_samples)
+[6.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(raspimouse_msgs)
+[6.519s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs' for CMake module files
+[6.522s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs' for CMake config files
+[6.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('raspimouse_msgs', 'cmake_prefix_path')
+[6.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/hook/cmake_prefix_path.ps1'
+[6.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/hook/cmake_prefix_path.dsv'
+[6.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/hook/cmake_prefix_path.sh'
+[6.539s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib'
+[6.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('raspimouse_msgs', 'ld_library_path_lib')
+[6.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/hook/ld_library_path_lib.ps1'
+[6.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/hook/ld_library_path_lib.dsv'
+[6.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/hook/ld_library_path_lib.sh'
+[6.554s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/bin'
+[6.554s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/pkgconfig/raspimouse_msgs.pc'
+[6.554s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib/python3.10/site-packages'
+[6.554s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/bin'
+[6.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/package.ps1'
+[6.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/package.dsv'
+[6.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/package.sh'
+[6.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/package.bash'
+[6.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/package.zsh'
+[6.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/colcon-core/packages/raspimouse_msgs)
+[6.575s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ricbolz/ros2_ws/src/raspimouse2/raspimouse' with build type 'ament_cmake'
+[6.575s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ricbolz/ros2_ws/src/raspimouse2/raspimouse'
+[6.598s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.598s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ricbolz/ros2_ws/src/build/raspimouse': AMENT_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricbolz/ros2_ws/src/raspimouse2/raspimouse -DCMAKE_INSTALL_PREFIX=/home/ricbolz/ros2_ws/src/install/raspimouse
+[7.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ricbolz/ros2_ws/src/build/raspimouse' returned '0': AMENT_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricbolz/ros2_ws/src/raspimouse2/raspimouse -DCMAKE_INSTALL_PREFIX=/home/ricbolz/ros2_ws/src/install/raspimouse
+[7.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ricbolz/ros2_ws/src/build/raspimouse': AMENT_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricbolz/ros2_ws/src/build/raspimouse -- -j2 -l2
+[8.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ricbolz/ros2_ws/src/build/raspimouse' returned '0': AMENT_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricbolz/ros2_ws/src/build/raspimouse -- -j2 -l2
+[8.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ricbolz/ros2_ws/src/build/raspimouse': AMENT_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricbolz/ros2_ws/src/build/raspimouse
+[8.174s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(raspimouse)
+[8.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ricbolz/ros2_ws/src/build/raspimouse' returned '0': AMENT_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricbolz/ros2_ws/src/build/raspimouse
+[8.188s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse' for CMake module files
+[8.188s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse' for CMake config files
+[8.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('raspimouse', 'cmake_prefix_path')
+[8.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/hook/cmake_prefix_path.ps1'
+[8.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/hook/cmake_prefix_path.dsv'
+[8.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/hook/cmake_prefix_path.sh'
+[8.218s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse/lib'
+[8.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('raspimouse', 'ld_library_path_lib')
+[8.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/hook/ld_library_path_lib.ps1'
+[8.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/hook/ld_library_path_lib.dsv'
+[8.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/hook/ld_library_path_lib.sh'
+[8.230s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse/bin'
+[8.230s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse/lib/pkgconfig/raspimouse.pc'
+[8.231s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse/lib/python3.10/site-packages'
+[8.231s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse/bin'
+[8.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/package.ps1'
+[8.246s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/package.dsv'
+[8.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/package.sh'
+[8.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/package.bash'
+[8.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/package.zsh'
+[8.248s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ricbolz/ros2_ws/src/install/raspimouse/share/colcon-core/packages/raspimouse)
+[8.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(raspimouse)
+[8.356s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse' for CMake module files
+[8.357s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse' for CMake config files
+[8.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('raspimouse', 'cmake_prefix_path')
+[8.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/hook/cmake_prefix_path.ps1'
+[8.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/hook/cmake_prefix_path.dsv'
+[8.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/hook/cmake_prefix_path.sh'
+[8.380s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse/lib'
+[8.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('raspimouse', 'ld_library_path_lib')
+[8.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/hook/ld_library_path_lib.ps1'
+[8.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/hook/ld_library_path_lib.dsv'
+[8.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/hook/ld_library_path_lib.sh'
+[8.398s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse/bin'
+[8.398s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse/lib/pkgconfig/raspimouse.pc'
+[8.398s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse/lib/python3.10/site-packages'
+[8.398s] Level 1:colcon.colcon_core.environment:checking '/home/ricbolz/ros2_ws/src/install/raspimouse/bin'
+[8.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/package.ps1'
+[8.412s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/package.dsv'
+[8.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/package.sh'
+[8.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/package.bash'
+[8.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/package.zsh'
+[8.419s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ricbolz/ros2_ws/src/install/raspimouse/share/colcon-core/packages/raspimouse)
+[8.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.421s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.421s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.421s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.437s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.441s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.442s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.487s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.498s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ricbolz/ros2_ws/src/install/local_setup.ps1'
+[8.504s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ricbolz/ros2_ws/src/install/_local_setup_util_ps1.py'
+[8.506s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ricbolz/ros2_ws/src/install/setup.ps1'
+[8.522s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ricbolz/ros2_ws/src/install/local_setup.sh'
+[8.523s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ricbolz/ros2_ws/src/install/_local_setup_util_sh.py'
+[8.524s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ricbolz/ros2_ws/src/install/setup.sh'
+[8.543s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ricbolz/ros2_ws/src/install/local_setup.bash'
+[8.544s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ricbolz/ros2_ws/src/install/setup.bash'
+[8.556s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ricbolz/ros2_ws/src/install/local_setup.zsh'
+[8.557s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ricbolz/ros2_ws/src/install/setup.zsh'

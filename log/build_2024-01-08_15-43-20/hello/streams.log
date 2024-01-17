@@ -1,0 +1,56 @@
+[1.192s] Invoking command in '/home/ricbolz/ros2_ws/src/build/hello': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/hello/prefix_override:/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ricbolz/ros2_ws/src/build/hello/build
+[1.629s] running develop
+[1.804s] Removing /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello.egg-link (link to .)
+[1.837s] Invoked command in '/home/ricbolz/ros2_ws/src/build/hello' returned '0': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/hello/prefix_override:/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ricbolz/ros2_ws/src/build/hello/build
+[1.838s] Invoking command in '/home/ricbolz/ros2_ws/src/hello': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/hello/prefix_override:/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hello build --build-base /home/ricbolz/ros2_ws/src/build/hello/build install --record /home/ricbolz/ros2_ws/src/build/hello/install.log --single-version-externally-managed
+[2.231s] running egg_info
+[2.231s] writing ../build/hello/hello.egg-info/PKG-INFO
+[2.232s] writing dependency_links to ../build/hello/hello.egg-info/dependency_links.txt
+[2.238s] writing entry points to ../build/hello/hello.egg-info/entry_points.txt
+[2.238s] writing requirements to ../build/hello/hello.egg-info/requires.txt
+[2.239s] writing top-level names to ../build/hello/hello.egg-info/top_level.txt
+[2.248s] reading manifest file '../build/hello/hello.egg-info/SOURCES.txt'
+[2.251s] writing manifest file '../build/hello/hello.egg-info/SOURCES.txt'
+[2.252s] running build
+[2.257s] running build_py
+[2.258s] running install
+[2.259s] running install_lib
+[2.259s] copying /home/ricbolz/ros2_ws/src/build/hello/build/lib/hello/__init__.py -> /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello
+[2.259s] copying /home/ricbolz/ros2_ws/src/build/hello/build/lib/hello/hello_node.py -> /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello
+[2.260s] copying /home/ricbolz/ros2_ws/src/build/hello/build/lib/hello/line_follower.py -> /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello
+[2.261s] copying /home/ricbolz/ros2_ws/src/build/hello/build/lib/hello/JoypadMouseController.py -> /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello
+[2.261s] copying /home/ricbolz/ros2_ws/src/build/hello/build/lib/hello/hello_subscriber.py -> /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello
+[2.268s] copying /home/ricbolz/ros2_ws/src/build/hello/build/lib/hello/hello_publisher.py -> /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello
+[2.275s] copying /home/ricbolz/ros2_ws/src/build/hello/build/lib/hello/sound_play.py -> /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello
+[2.276s] copying /home/ricbolz/ros2_ws/src/build/hello/build/lib/hello/lightsensor_monitor.py -> /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello
+[2.276s] copying /home/ricbolz/ros2_ws/src/build/hello/build/lib/hello/image_capture.py -> /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello
+[2.276s] copying /home/ricbolz/ros2_ws/src/build/hello/build/lib/hello/keyboard.py -> /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello
+[2.277s] copying /home/ricbolz/ros2_ws/src/build/hello/build/lib/hello/key_monitor.py -> /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello
+[2.277s] copying /home/ricbolz/ros2_ws/src/build/hello/build/lib/hello/image_monitor.py -> /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello
+[2.277s] copying /home/ricbolz/ros2_ws/src/build/hello/build/lib/hello/lifecycle_node_manager.py -> /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello
+[2.286s] byte-compiling /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/__init__.py to __init__.cpython-310.pyc
+[2.287s] byte-compiling /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/hello_node.py to hello_node.cpython-310.pyc
+[2.287s] byte-compiling /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/line_follower.py to line_follower.cpython-310.pyc
+[2.289s] byte-compiling /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/JoypadMouseController.py to JoypadMouseController.cpython-310.pyc
+[2.289s] byte-compiling /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/hello_subscriber.py to hello_subscriber.cpython-310.pyc
+[2.289s] byte-compiling /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/hello_publisher.py to hello_publisher.cpython-310.pyc
+[2.292s] byte-compiling /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/sound_play.py to sound_play.cpython-310.pyc
+[2.292s] byte-compiling /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/lightsensor_monitor.py to lightsensor_monitor.cpython-310.pyc
+[2.300s] byte-compiling /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/image_capture.py to image_capture.cpython-310.pyc
+[2.301s] byte-compiling /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/keyboard.py to keyboard.cpython-310.pyc
+[2.301s] byte-compiling /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/key_monitor.py to key_monitor.cpython-310.pyc
+[2.302s] byte-compiling /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/image_monitor.py to image_monitor.cpython-310.pyc
+[2.302s] byte-compiling /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello/lifecycle_node_manager.py to lifecycle_node_manager.cpython-310.pyc
+[2.324s] running install_data
+[2.324s] running install_egg_info
+[2.324s] Copying ../build/hello/hello.egg-info to /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello-0.0.0-py3.10.egg-info
+[2.325s] running install_scripts
+[2.366s] Installing hello_node script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[2.367s] Installing hello_publisher script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[2.367s] Installing hello_subscriber script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[2.368s] Installing joypad_mouse_controller script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[2.371s] Installing lifecycle_node_manager script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[2.371s] Installing lightsensor_monitor script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[2.372s] Installing line_follower script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[2.373s] writing list of installed files to '/home/ricbolz/ros2_ws/src/build/hello/install.log'
+[2.483s] Invoked command in '/home/ricbolz/ros2_ws/src/hello' returned '0': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/hello/prefix_override:/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hello build --build-base /home/ricbolz/ros2_ws/src/build/hello/build install --record /home/ricbolz/ros2_ws/src/build/hello/install.log --single-version-externally-managed

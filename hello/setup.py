@@ -12,7 +12,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        (os.path.join('share', package_name), glob('launch/*_launch.py')),
+        (os.path.join('share', package_name, 'launch'), glob('launch/*_launch.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -30,6 +30,7 @@ setup(
             'lightsensor_monitor = hello.lightsensor_monitor:main',
             'line_follower = hello.line_follower:main',
             'lifecycle_node_manager = hello.lifecycle_node_manager:main',
+            'robot_node = hello.robot_node:main',
         ],
     },
 )

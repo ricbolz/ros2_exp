@@ -1,0 +1,11 @@
+source;share/raspimouse/hook/cmake_prefix_path.ps1
+source;share/raspimouse/hook/cmake_prefix_path.dsv
+source;share/raspimouse/hook/cmake_prefix_path.sh
+source;share/raspimouse/hook/ld_library_path_lib.ps1
+source;share/raspimouse/hook/ld_library_path_lib.dsv
+source;share/raspimouse/hook/ld_library_path_lib.sh
+source;share/raspimouse/local_setup.bash
+source;share/raspimouse/local_setup.dsv
+source;share/raspimouse/local_setup.ps1
+source;share/raspimouse/local_setup.sh
+source;share/raspimouse/local_setup.zsh

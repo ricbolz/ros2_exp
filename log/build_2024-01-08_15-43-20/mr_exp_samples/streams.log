@@ -1,0 +1,27 @@
+[1.302s] Invoking command in '/home/ricbolz/ros2_ws/src/build/mr_exp_samples': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/mr_exp_samples/prefix_override:/home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ricbolz/ros2_ws/src/build/mr_exp_samples/build
+[1.668s] running develop
+[1.892s] Removing /home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages/mr-exp-samples.egg-link (link to .)
+[1.941s] Invoked command in '/home/ricbolz/ros2_ws/src/build/mr_exp_samples' returned '0': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/mr_exp_samples/prefix_override:/home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ricbolz/ros2_ws/src/build/mr_exp_samples/build
+[1.942s] Invoking command in '/home/ricbolz/ros2_ws/src/mr_exp_samples': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/mr_exp_samples/prefix_override:/home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mr_exp_samples build --build-base /home/ricbolz/ros2_ws/src/build/mr_exp_samples/build install --record /home/ricbolz/ros2_ws/src/build/mr_exp_samples/install.log --single-version-externally-managed
+[2.359s] running egg_info
+[2.362s] writing ../build/mr_exp_samples/mr_exp_samples.egg-info/PKG-INFO
+[2.362s] writing dependency_links to ../build/mr_exp_samples/mr_exp_samples.egg-info/dependency_links.txt
+[2.362s] writing entry points to ../build/mr_exp_samples/mr_exp_samples.egg-info/entry_points.txt
+[2.362s] writing requirements to ../build/mr_exp_samples/mr_exp_samples.egg-info/requires.txt
+[2.362s] writing top-level names to ../build/mr_exp_samples/mr_exp_samples.egg-info/top_level.txt
+[2.362s] reading manifest file '../build/mr_exp_samples/mr_exp_samples.egg-info/SOURCES.txt'
+[2.365s] writing manifest file '../build/mr_exp_samples/mr_exp_samples.egg-info/SOURCES.txt'
+[2.365s] running build
+[2.365s] running build_py
+[2.365s] running install
+[2.366s] running install_lib
+[2.367s] running install_data
+[2.367s] running install_egg_info
+[2.367s] removing '/home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages/mr_exp_samples-0.0.0-py3.10.egg-info' (and everything under it)
+[2.367s] Copying ../build/mr_exp_samples/mr_exp_samples.egg-info to /home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages/mr_exp_samples-0.0.0-py3.10.egg-info
+[2.372s] running install_scripts
+[2.387s] Installing hello_sub_and_pub script to /home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/mr_exp_samples
+[2.388s] Installing joy_teleop script to /home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/mr_exp_samples
+[2.390s] Installing watermark_node script to /home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/mr_exp_samples
+[2.391s] writing list of installed files to '/home/ricbolz/ros2_ws/src/build/mr_exp_samples/install.log'
+[2.431s] Invoked command in '/home/ricbolz/ros2_ws/src/mr_exp_samples' returned '0': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/mr_exp_samples/prefix_override:/home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mr_exp_samples build --build-base /home/ricbolz/ros2_ws/src/build/mr_exp_samples/build install --record /home/ricbolz/ros2_ws/src/build/mr_exp_samples/install.log --single-version-externally-managed

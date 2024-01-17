@@ -1,0 +1,99 @@
+[0.069s] Invoking command in '/home/ricbolz/ros2_ws/src/build/raspimouse': AMENT_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricbolz/ros2_ws/src/raspimouse2/raspimouse -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ricbolz/ros2_ws/src/install/raspimouse
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.186s] -- The CXX compiler identification is GNU 11.4.0
+[0.198s] -- Detecting C compiler ABI info
+[0.273s] -- Detecting C compiler ABI info - done
+[0.278s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.279s] -- Detecting C compile features - done
+[0.281s] -- Detecting CXX compiler ABI info
+[0.364s] -- Detecting CXX compiler ABI info - done
+[0.366s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.366s] -- Detecting CXX compile features
+[0.367s] -- Detecting CXX compile features - done
+[0.368s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.534s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.581s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.608s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.641s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.645s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.651s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.662s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.689s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.743s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.746s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.851s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.871s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.910s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.917s] -- Looking for pthread.h
+[0.996s] -- Looking for pthread.h - found
+[0.997s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.077s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.078s] -- Found Threads: TRUE  
+[1.198s] -- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.232s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.294s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.312s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.351s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.424s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[1.432s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.622s] -- Found raspimouse_msgs: 1.1.2 (/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/share/raspimouse_msgs/cmake)
+[1.645s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.731s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.732s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.733s] -- Configured cppcheck include dirs: /home/ricbolz/ros2_ws/src/raspimouse2/raspimouse/include
+[1.733s] -- Configured cppcheck exclude dirs and/or files: 
+[1.733s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.733s] -- Configured cpplint exclude dirs and/or files: 
+[1.734s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.734s] -- Added test 'lint_cmake' to check CMake code style
+[1.735s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.736s] -- Added test 'uncrustify' to check C / C++ code style
+[1.736s] -- Configured uncrustify additional arguments: 
+[1.736s] -- Added test 'xmllint' to check XML markup files
+[1.739s] -- Configuring done
+[1.754s] -- Generating done
+[1.756s] -- Build files have been written to: /home/ricbolz/ros2_ws/src/build/raspimouse
+[1.765s] Invoked command in '/home/ricbolz/ros2_ws/src/build/raspimouse' returned '0': AMENT_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricbolz/ros2_ws/src/raspimouse2/raspimouse -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ricbolz/ros2_ws/src/install/raspimouse
+[1.767s] Invoking command in '/home/ricbolz/ros2_ws/src/build/raspimouse': AMENT_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricbolz/ros2_ws/src/build/raspimouse -- -j2 -l2
+[1.846s] [ 25%] [32mBuilding CXX object CMakeFiles/raspimouse_component.dir/src/raspimouse_component.cpp.o[0m
+[14.487s] [ 50%] [32m[1mLinking CXX shared library libraspimouse_component.so[0m
+[15.356s] [ 50%] Built target raspimouse_component
+[15.389s] [ 75%] [32mBuilding CXX object CMakeFiles/raspimouse.dir/src/raspimouse.cpp.o[0m
+[17.778s] [100%] [32m[1mLinking CXX executable raspimouse[0m
+[18.111s] [100%] Built target raspimouse
+[18.123s] Invoked command in '/home/ricbolz/ros2_ws/src/build/raspimouse' returned '0': AMENT_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricbolz/ros2_ws/src/build/raspimouse -- -j2 -l2
+[18.177s] Invoking command in '/home/ricbolz/ros2_ws/src/build/raspimouse': AMENT_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricbolz/ros2_ws/src/build/raspimouse
+[18.184s] -- Install configuration: ""
+[18.185s] -- Execute custom install script
+[18.185s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/environment/library_path.sh
+[18.194s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/environment/library_path.dsv
+[18.202s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/include/raspimouse/raspimouse_component.hpp
+[18.211s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse//launch/raspimouse.launch.py
+[18.219s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse//config/params.yaml
+[18.227s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/lib/raspimouse/raspimouse
+[18.237s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/ament_index/resource_index/package_run_dependencies/raspimouse
+[18.247s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/ament_index/resource_index/parent_prefix_path/raspimouse
+[18.255s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/environment/ament_prefix_path.sh
+[18.264s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/environment/ament_prefix_path.dsv
+[18.274s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/environment/path.sh
+[18.282s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/environment/path.dsv
+[18.302s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/local_setup.bash
+[18.311s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/local_setup.sh
+[18.319s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/local_setup.zsh
+[18.327s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/local_setup.dsv
+[18.337s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/package.dsv
+[18.351s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/ament_index/resource_index/packages/raspimouse
+[18.359s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/ament_index/resource_index/rclcpp_components/raspimouse
+[18.367s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/ament_cmake_export_targets-extras.cmake
+[18.375s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.383s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.391s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/ament_cmake_export_libraries-extras.cmake
+[18.399s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/raspimouseConfig.cmake
+[18.407s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/raspimouseConfig-version.cmake
+[18.415s] -- Symlinking: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/package.xml
+[18.422s] -- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse/lib/libraspimouse_component.so
+[18.434s] -- Set runtime path of "/home/ricbolz/ros2_ws/src/install/raspimouse/lib/libraspimouse_component.so" to ""
+[18.435s] -- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/export_raspimouse_componentExport.cmake
+[18.435s] -- Installing: /home/ricbolz/ros2_ws/src/install/raspimouse/share/raspimouse/cmake/export_raspimouse_componentExport-noconfig.cmake
+[18.437s] Invoked command in '/home/ricbolz/ros2_ws/src/build/raspimouse' returned '0': AMENT_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricbolz/ros2_ws/src/install/raspimouse_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricbolz/ros2_ws/src/build/raspimouse

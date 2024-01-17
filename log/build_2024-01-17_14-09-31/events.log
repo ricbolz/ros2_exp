@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000995] (-) JobUnselected: {'identifier': 'mr_exp_samples'}
+[0.001493] (-) JobUnselected: {'identifier': 'raspimouse'}
+[0.001845] (-) JobUnselected: {'identifier': 'raspimouse_msgs'}
+[0.001959] (-) JobUnselected: {'identifier': 'robot'}
+[0.001978] (hello) JobQueued: {'identifier': 'hello', 'dependencies': OrderedDict()}
+[0.002011] (hello) JobStarted: {'identifier': 'hello'}
+[0.100553] (-) TimerEvent: {}
+[0.318002] (-) TimerEvent: {}
+[0.419515] (-) TimerEvent: {}
+[0.520553] (-) TimerEvent: {}
+[0.627660] (-) TimerEvent: {}
+[0.728711] (-) TimerEvent: {}
+[0.829023] (-) TimerEvent: {}
+[0.929502] (-) TimerEvent: {}
+[0.995135] (hello) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/hello', 'build', '--build-base', '/home/ricbolz/ros2_ws/src/build/hello/build', 'install', '--record', '/home/ricbolz/ros2_ws/src/build/hello/install.log', '--single-version-externally-managed'], 'cwd': '/home/ricbolz/ros2_ws/src/hello', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ricbolz', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ricbolz/ros2_ws/install/raspimouse/lib:/home/ricbolz/ros2_ws/install/raspimouse_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ricbolz', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.85.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ja_JP.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1344', 'SYSTEMD_EXEC_PID': '1516', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3639', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ricbolz/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ricbolz', 'JOURNAL_STREAM': '8:24056', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ricbolz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ricbolz-VirtualBox:@/tmp/.ICE-unix/1489,unix/ricbolz-VirtualBox:/tmp/.ICE-unix/1489', 'INVOCATION_ID': '5ade217cdc1f47c48c86209cf89b5a6d', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7X1TH2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e077a3dd13.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ricbolz/ros2_ws/install/robot:/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs:/home/ricbolz/ros2_ws/install/mr_exp_samples:/home/ricbolz/ros2_ws/install/hello:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ricbolz/ros2_ws/src/build/hello', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ricbolz/ros2_ws/src/build/hello/prefix_override:/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages:/home/ricbolz/ros2_ws/build/robot:/home/ricbolz/ros2_ws/install/robot/lib/python3.10/site-packages:/home/ricbolz/ros2_ws/install/raspimouse_msgs/local/lib/python3.10/dist-packages:/home/ricbolz/ros2_ws/install/mr_exp_samples/lib/python3.10/site-packages:/home/ricbolz/ros2_ws/install/hello/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ricbolz/ros2_ws/install/raspimouse:/home/ricbolz/ros2_ws/install/raspimouse_msgs'}, 'shell': False}
+[1.029914] (-) TimerEvent: {}
+[1.130663] (-) TimerEvent: {}
+[1.231532] (-) TimerEvent: {}
+[1.287291] (hello) StdoutLine: {'line': b'running egg_info\n'}
+[1.288778] (hello) StdoutLine: {'line': b'writing ../build/hello/hello.egg-info/PKG-INFO\n'}
+[1.289762] (hello) StdoutLine: {'line': b'writing dependency_links to ../build/hello/hello.egg-info/dependency_links.txt\n'}
+[1.290419] (hello) StdoutLine: {'line': b'writing entry points to ../build/hello/hello.egg-info/entry_points.txt\n'}
+[1.290710] (hello) StdoutLine: {'line': b'writing requirements to ../build/hello/hello.egg-info/requires.txt\n'}
+[1.291070] (hello) StdoutLine: {'line': b'writing top-level names to ../build/hello/hello.egg-info/top_level.txt\n'}
+[1.293260] (hello) StdoutLine: {'line': b"reading manifest file '../build/hello/hello.egg-info/SOURCES.txt'\n"}
+[1.294209] (hello) StdoutLine: {'line': b"writing manifest file '../build/hello/hello.egg-info/SOURCES.txt'\n"}
+[1.294493] (hello) StdoutLine: {'line': b'running build\n'}
+[1.294697] (hello) StdoutLine: {'line': b'running build_py\n'}
+[1.295631] (hello) StdoutLine: {'line': b'running install\n'}
+[1.296110] (hello) StdoutLine: {'line': b'running install_lib\n'}
+[1.297947] (hello) StdoutLine: {'line': b'running install_data\n'}
+[1.298591] (hello) StdoutLine: {'line': b'creating /home/ricbolz/ros2_ws/src/install/hello/share/hello/launch\n'}
+[1.298861] (hello) StdoutLine: {'line': b'copying launch/topic_launch.py -> /home/ricbolz/ros2_ws/src/install/hello/share/hello/launch\n'}
+[1.299121] (hello) StdoutLine: {'line': b'copying launch/robot_launch.py -> /home/ricbolz/ros2_ws/src/install/hello/share/hello/launch\n'}
+[1.299328] (hello) StdoutLine: {'line': b'copying launch/text_to_speech_launch.py -> /home/ricbolz/ros2_ws/src/install/hello/share/hello/launch\n'}
+[1.299573] (hello) StdoutLine: {'line': b'copying launch/line_follower_launch.py -> /home/ricbolz/ros2_ws/src/install/hello/share/hello/launch\n'}
+[1.299830] (hello) StdoutLine: {'line': b'copying launch/follow_launch.py -> /home/ricbolz/ros2_ws/src/install/hello/share/hello/launch\n'}
+[1.300056] (hello) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.302169] (hello) StdoutLine: {'line': b"removing '/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.308173] (hello) StdoutLine: {'line': b'Copying ../build/hello/hello.egg-info to /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello-0.0.0-py3.10.egg-info\n'}
+[1.315346] (hello) StdoutLine: {'line': b'running install_scripts\n'}
+[1.332070] (-) TimerEvent: {}
+[1.333732] (hello) StdoutLine: {'line': b'Installing hello_node script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello\n'}
+[1.334658] (hello) StdoutLine: {'line': b'Installing hello_publisher script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello\n'}
+[1.335528] (hello) StdoutLine: {'line': b'Installing hello_subscriber script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello\n'}
+[1.336650] (hello) StdoutLine: {'line': b'Installing joypad_mouse_controller script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello\n'}
+[1.337447] (hello) StdoutLine: {'line': b'Installing lifecycle_node_manager script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello\n'}
+[1.338190] (hello) StdoutLine: {'line': b'Installing lightsensor_monitor script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello\n'}
+[1.339082] (hello) StdoutLine: {'line': b'Installing line_follower script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello\n'}
+[1.339428] (hello) StdoutLine: {'line': b'Installing robot_node script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello\n'}
+[1.340228] (hello) StdoutLine: {'line': b"writing list of installed files to '/home/ricbolz/ros2_ws/src/build/hello/install.log'\n"}
+[1.367857] (hello) CommandEnded: {'returncode': 0}
+[1.418736] (hello) JobEnded: {'identifier': 'hello', 'rc': 0}
+[1.419644] (-) EventReactorShutdown: {}

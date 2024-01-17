@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing mr_exp_samples.egg-info/PKG-INFO
+writing dependency_links to mr_exp_samples.egg-info/dependency_links.txt
+writing entry points to mr_exp_samples.egg-info/entry_points.txt
+writing requirements to mr_exp_samples.egg-info/requires.txt
+writing top-level names to mr_exp_samples.egg-info/top_level.txt
+reading manifest file 'mr_exp_samples.egg-info/SOURCES.txt'
+writing manifest file 'mr_exp_samples.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages/mr-exp-samples.egg-link (link to .)
+Installing hello_sub_and_pub script to /home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/mr_exp_samples
+Installing joy_teleop script to /home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/mr_exp_samples
+Installing watermark_node script to /home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/mr_exp_samples
+
+Installed /home/ricbolz/ros2_ws/src/build/mr_exp_samples
+running install_data

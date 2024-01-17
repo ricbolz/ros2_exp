@@ -1,0 +1,11 @@
+/home/ricbolz/ros2_ws/src/build/raspimouse/CMakeFiles/uninstall.dir
+/home/ricbolz/ros2_ws/src/build/raspimouse/CMakeFiles/raspimouse_uninstall.dir
+/home/ricbolz/ros2_ws/src/build/raspimouse/CMakeFiles/raspimouse_component.dir
+/home/ricbolz/ros2_ws/src/build/raspimouse/CMakeFiles/raspimouse.dir
+/home/ricbolz/ros2_ws/src/build/raspimouse/CMakeFiles/test.dir
+/home/ricbolz/ros2_ws/src/build/raspimouse/CMakeFiles/edit_cache.dir
+/home/ricbolz/ros2_ws/src/build/raspimouse/CMakeFiles/rebuild_cache.dir
+/home/ricbolz/ros2_ws/src/build/raspimouse/CMakeFiles/list_install_components.dir
+/home/ricbolz/ros2_ws/src/build/raspimouse/CMakeFiles/install.dir
+/home/ricbolz/ros2_ws/src/build/raspimouse/CMakeFiles/install/local.dir
+/home/ricbolz/ros2_ws/src/build/raspimouse/CMakeFiles/install/strip.dir

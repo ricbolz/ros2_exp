@@ -1,0 +1,25 @@
+[0.653s] Invoking command in '/home/ricbolz/ros2_ws/src/build/robot': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/robot/prefix_override:/home/ricbolz/ros2_ws/src/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ricbolz/ros2_ws/src/build/robot/build --no-deps install_data
+[0.881s] running develop
+[1.013s] running egg_info
+[1.013s] creating robot.egg-info
+[1.013s] writing robot.egg-info/PKG-INFO
+[1.013s] writing dependency_links to robot.egg-info/dependency_links.txt
+[1.013s] writing entry points to robot.egg-info/entry_points.txt
+[1.013s] writing requirements to robot.egg-info/requires.txt
+[1.014s] writing top-level names to robot.egg-info/top_level.txt
+[1.014s] writing manifest file 'robot.egg-info/SOURCES.txt'
+[1.015s] reading manifest file 'robot.egg-info/SOURCES.txt'
+[1.016s] writing manifest file 'robot.egg-info/SOURCES.txt'
+[1.017s] running build_ext
+[1.018s] Creating /home/ricbolz/ros2_ws/src/install/robot/lib/python3.10/site-packages/robot.egg-link (link to .)
+[1.018s] Installing joypad_node script to /home/ricbolz/ros2_ws/src/install/robot/lib/robot
+[1.019s] 
+[1.019s] Installed /home/ricbolz/ros2_ws/src/build/robot
+[1.019s] running install_data
+[1.019s] creating /home/ricbolz/ros2_ws/src/install/robot/share/ament_index
+[1.019s] creating /home/ricbolz/ros2_ws/src/install/robot/share/ament_index/resource_index
+[1.019s] creating /home/ricbolz/ros2_ws/src/install/robot/share/ament_index/resource_index/packages
+[1.019s] copying resource/robot -> /home/ricbolz/ros2_ws/src/install/robot/share/ament_index/resource_index/packages
+[1.019s] copying package.xml -> /home/ricbolz/ros2_ws/src/install/robot/share/robot
+[1.019s] copying launch/robot_launch.py -> /home/ricbolz/ros2_ws/src/install/robot/share/robot
+[1.041s] Invoked command in '/home/ricbolz/ros2_ws/src/build/robot' returned '0': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/robot/prefix_override:/home/ricbolz/ros2_ws/src/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ricbolz/ros2_ws/src/build/robot/build --no-deps install_data

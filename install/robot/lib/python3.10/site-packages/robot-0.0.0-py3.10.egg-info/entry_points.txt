@@ -1,0 +1,3 @@
+[console_scripts]
+joypad_node = robot.joypad_node:main
+

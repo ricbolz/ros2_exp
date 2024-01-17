@@ -1,0 +1,24 @@
+[0.771s] Invoking command in '/home/ricbolz/ros2_ws/src/robot': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/robot/prefix_override:/home/ricbolz/ros2_ws/src/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/robot build --build-base /home/ricbolz/ros2_ws/src/build/robot/build install --record /home/ricbolz/ros2_ws/src/build/robot/install.log --single-version-externally-managed
+[0.989s] running egg_info
+[0.989s] writing ../build/robot/robot.egg-info/PKG-INFO
+[0.990s] writing dependency_links to ../build/robot/robot.egg-info/dependency_links.txt
+[0.991s] writing entry points to ../build/robot/robot.egg-info/entry_points.txt
+[0.991s] writing requirements to ../build/robot/robot.egg-info/requires.txt
+[0.992s] writing top-level names to ../build/robot/robot.egg-info/top_level.txt
+[0.994s] reading manifest file '../build/robot/robot.egg-info/SOURCES.txt'
+[0.995s] writing manifest file '../build/robot/robot.egg-info/SOURCES.txt'
+[0.995s] running build
+[0.995s] running build_py
+[0.995s] copying robot/joypad_node.py -> /home/ricbolz/ros2_ws/src/build/robot/build/lib/robot
+[0.996s] running install
+[0.996s] running install_lib
+[0.997s] copying /home/ricbolz/ros2_ws/src/build/robot/build/lib/robot/joypad_node.py -> /home/ricbolz/ros2_ws/src/install/robot/lib/python3.10/site-packages/robot
+[0.997s] byte-compiling /home/ricbolz/ros2_ws/src/install/robot/lib/python3.10/site-packages/robot/joypad_node.py to joypad_node.cpython-310.pyc
+[1.000s] running install_data
+[1.000s] running install_egg_info
+[1.002s] removing '/home/ricbolz/ros2_ws/src/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.015s] Copying ../build/robot/robot.egg-info to /home/ricbolz/ros2_ws/src/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info
+[1.015s] running install_scripts
+[1.028s] Installing joypad_node script to /home/ricbolz/ros2_ws/src/install/robot/lib/robot
+[1.029s] writing list of installed files to '/home/ricbolz/ros2_ws/src/build/robot/install.log'
+[1.065s] Invoked command in '/home/ricbolz/ros2_ws/src/robot' returned '0': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/robot/prefix_override:/home/ricbolz/ros2_ws/src/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/robot build --build-base /home/ricbolz/ros2_ws/src/build/robot/build install --record /home/ricbolz/ros2_ws/src/build/robot/install.log --single-version-externally-managed

@@ -1,0 +1,23 @@
+[0.700s] Invoking command in '/home/ricbolz/ros2_ws/src/build/mr_exp_samples': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/mr_exp_samples/prefix_override:/home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ricbolz/ros2_ws/src/build/mr_exp_samples/build --no-deps install_data
+[0.996s] running develop
+[1.004s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.004s]   warnings.warn(
+[1.006s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.006s]   warnings.warn(
+[1.235s] running egg_info
+[1.235s] writing mr_exp_samples.egg-info/PKG-INFO
+[1.244s] writing dependency_links to mr_exp_samples.egg-info/dependency_links.txt
+[1.244s] writing entry points to mr_exp_samples.egg-info/entry_points.txt
+[1.245s] writing requirements to mr_exp_samples.egg-info/requires.txt
+[1.245s] writing top-level names to mr_exp_samples.egg-info/top_level.txt
+[1.247s] reading manifest file 'mr_exp_samples.egg-info/SOURCES.txt'
+[1.248s] writing manifest file 'mr_exp_samples.egg-info/SOURCES.txt'
+[1.251s] running build_ext
+[1.251s] Creating /home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages/mr-exp-samples.egg-link (link to .)
+[1.254s] Installing hello_sub_and_pub script to /home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/mr_exp_samples
+[1.266s] Installing joy_teleop script to /home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/mr_exp_samples
+[1.266s] Installing watermark_node script to /home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/mr_exp_samples
+[1.267s] 
+[1.267s] Installed /home/ricbolz/ros2_ws/src/build/mr_exp_samples
+[1.267s] running install_data
+[1.291s] Invoked command in '/home/ricbolz/ros2_ws/src/build/mr_exp_samples' returned '0': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/mr_exp_samples/prefix_override:/home/ricbolz/ros2_ws/src/install/mr_exp_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ricbolz/ros2_ws/src/build/mr_exp_samples/build --no-deps install_data

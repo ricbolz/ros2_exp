@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating robot.egg-info
+writing robot.egg-info/PKG-INFO
+writing dependency_links to robot.egg-info/dependency_links.txt
+writing entry points to robot.egg-info/entry_points.txt
+writing requirements to robot.egg-info/requires.txt
+writing top-level names to robot.egg-info/top_level.txt
+writing manifest file 'robot.egg-info/SOURCES.txt'
+reading manifest file 'robot.egg-info/SOURCES.txt'
+writing manifest file 'robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ricbolz/ros2_ws/src/install/robot/lib/python3.10/site-packages/robot.egg-link (link to .)
+Installing joypad_node script to /home/ricbolz/ros2_ws/src/install/robot/lib/robot
+
+Installed /home/ricbolz/ros2_ws/src/build/robot
+running install_data
+creating /home/ricbolz/ros2_ws/src/install/robot/share/ament_index
+creating /home/ricbolz/ros2_ws/src/install/robot/share/ament_index/resource_index
+creating /home/ricbolz/ros2_ws/src/install/robot/share/ament_index/resource_index/packages
+copying resource/robot -> /home/ricbolz/ros2_ws/src/install/robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/ricbolz/ros2_ws/src/install/robot/share/robot
+copying launch/robot_launch.py -> /home/ricbolz/ros2_ws/src/install/robot/share/robot

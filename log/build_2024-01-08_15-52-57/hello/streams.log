@@ -1,0 +1,23 @@
+[0.640s] Invoking command in '/home/ricbolz/ros2_ws/src/build/hello': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/hello/prefix_override:/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ricbolz/ros2_ws/src/build/hello/build --no-deps install_data
+[0.857s] running develop
+[0.967s] running egg_info
+[0.968s] writing hello.egg-info/PKG-INFO
+[0.968s] writing dependency_links to hello.egg-info/dependency_links.txt
+[0.969s] writing entry points to hello.egg-info/entry_points.txt
+[0.969s] writing requirements to hello.egg-info/requires.txt
+[0.970s] writing top-level names to hello.egg-info/top_level.txt
+[0.974s] reading manifest file 'hello.egg-info/SOURCES.txt'
+[0.975s] writing manifest file 'hello.egg-info/SOURCES.txt'
+[0.977s] running build_ext
+[0.977s] Creating /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello.egg-link (link to .)
+[0.978s] Installing hello_node script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[0.979s] Installing hello_publisher script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[0.979s] Installing hello_subscriber script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[0.979s] Installing joypad_mouse_controller script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[0.979s] Installing lifecycle_node_manager script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[0.980s] Installing lightsensor_monitor script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[0.980s] Installing line_follower script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[0.980s] 
+[0.981s] Installed /home/ricbolz/ros2_ws/src/build/hello
+[0.981s] running install_data
+[1.020s] Invoked command in '/home/ricbolz/ros2_ws/src/build/hello' returned '0': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/hello/prefix_override:/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ricbolz/ros2_ws/src/build/hello/build --no-deps install_data

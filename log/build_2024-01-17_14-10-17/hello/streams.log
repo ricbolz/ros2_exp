@@ -1,0 +1,28 @@
+[0.764s] Invoking command in '/home/ricbolz/ros2_ws/src/hello': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/hello/prefix_override:/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hello build --build-base /home/ricbolz/ros2_ws/src/build/hello/build install --record /home/ricbolz/ros2_ws/src/build/hello/install.log --single-version-externally-managed
+[0.981s] running egg_info
+[0.983s] writing ../build/hello/hello.egg-info/PKG-INFO
+[0.984s] writing dependency_links to ../build/hello/hello.egg-info/dependency_links.txt
+[0.984s] writing entry points to ../build/hello/hello.egg-info/entry_points.txt
+[0.984s] writing requirements to ../build/hello/hello.egg-info/requires.txt
+[0.984s] writing top-level names to ../build/hello/hello.egg-info/top_level.txt
+[0.986s] reading manifest file '../build/hello/hello.egg-info/SOURCES.txt'
+[0.986s] writing manifest file '../build/hello/hello.egg-info/SOURCES.txt'
+[0.987s] running build
+[0.987s] running build_py
+[0.990s] running install
+[0.990s] running install_lib
+[0.990s] running install_data
+[0.990s] running install_egg_info
+[0.992s] removing '/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello-0.0.0-py3.10.egg-info' (and everything under it)
+[0.999s] Copying ../build/hello/hello.egg-info to /home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages/hello-0.0.0-py3.10.egg-info
+[1.000s] running install_scripts
+[1.023s] Installing hello_node script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[1.024s] Installing hello_publisher script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[1.024s] Installing hello_subscriber script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[1.025s] Installing joypad_mouse_controller script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[1.026s] Installing lifecycle_node_manager script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[1.026s] Installing lightsensor_monitor script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[1.027s] Installing line_follower script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[1.027s] Installing robot_node script to /home/ricbolz/ros2_ws/src/install/hello/lib/hello
+[1.028s] writing list of installed files to '/home/ricbolz/ros2_ws/src/build/hello/install.log'
+[1.054s] Invoked command in '/home/ricbolz/ros2_ws/src/hello' returned '0': PYTHONPATH=/home/ricbolz/ros2_ws/src/build/hello/prefix_override:/home/ricbolz/ros2_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hello build --build-base /home/ricbolz/ros2_ws/src/build/hello/build install --record /home/ricbolz/ros2_ws/src/build/hello/install.log --single-version-externally-managed
