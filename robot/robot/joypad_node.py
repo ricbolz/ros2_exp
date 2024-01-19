@@ -23,12 +23,12 @@ class joypad_node(Node):
             Twist,
             'cmd_vel',
             10)
-        self.switch_sub = self.create_subscription(
-            Switches,
-            'switches',
-            self.switch_callback,
-            10)
-        self.light_pub = self.create_publisher(
+        # self.switch_sub = self.create_subscription(
+        #     Switches,
+        #     'switches',
+        #     self.switch_callback,
+        #     10)
+        self.leds_pub = self.create_publisher(
             Leds,
             'leds',
             10)
@@ -36,9 +36,10 @@ class joypad_node(Node):
             Int16,
             'buzzer',
         10)
+        self.switches = Switches()
         self.cmd_vel_timer = self.create_timer(0.05, self.on_cmd_vel_timer)
         self.light_sensors_sub = self.create_subscription(LightSensors, 'light_sensors', self.callback_light_sensors, 1)
-        self.switches_sub = self.create_subscription(Switches, 'switches', self.callback_switches, 1)
+        self.switches_sub = self.create_subscription(Switches, 'switches', self.switch_callback, 1)
         self.motor_power_client = self.create_client(SetBool, 'motor_power')
 
         self.publisher = self.create_publisher(String, 'hello_topic', 10)
@@ -143,6 +144,19 @@ class joypad_node(Node):
 
         if self.sampling_is_done():
             self.update_line_detection()
+    
+    def update_line_detection(self):
+        for i in range(self.SENSOR_NUM):
+            is_positive = self.present_sensor_values[i] > self.line_thresholds[i]
+            self.line_is_detected_by_sensor[i] = is_positive == self.line_is_bright()
+
+    def indicate_line_detections(self):
+        msg = Leds()
+        msg.led0 = self.line_is_detected_by_sensor[3]
+        msg.led1 = self.line_is_detected_by_sensor[1]
+        msg.led2 = self.line_is_detected_by_sensor[2]
+        msg.led3 = self.line_is_detected_by_sensor[0]
+        self.leds_pub.publish(msg)
         
     def beep_buzzer(self, freq, beep_time):
         msg = Int16()
