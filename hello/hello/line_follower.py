@@ -6,7 +6,7 @@ from lifecycle_msgs.srv import ChangeState
 from raspimouse_msgs.msg import LightSensors, Switches, Leds
 from sensor_msgs.msg import Joy
 from std_srvs.srv import SetBool
-from rclpy.executors import MultiThreadedExecutor
+
 import time
 import playsound
 import random as rand
