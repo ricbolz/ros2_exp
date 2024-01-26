@@ -1,0 +1,25 @@
+[9.857s] Invoking command in '/home/ubuntu/ros2_ws/src/build/robot2': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/robot2/prefix_override:/home/ubuntu/ros2_ws/src/install/robot2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/robot2/build --no-deps install_data
+[13.205s] running develop
+[15.700s] running egg_info
+[15.702s] creating robot2.egg-info
+[15.703s] writing robot2.egg-info/PKG-INFO
+[15.706s] writing dependency_links to robot2.egg-info/dependency_links.txt
+[15.717s] writing entry points to robot2.egg-info/entry_points.txt
+[15.720s] writing requirements to robot2.egg-info/requires.txt
+[15.722s] writing top-level names to robot2.egg-info/top_level.txt
+[15.726s] writing manifest file 'robot2.egg-info/SOURCES.txt'
+[15.736s] reading manifest file 'robot2.egg-info/SOURCES.txt'
+[15.743s] writing manifest file 'robot2.egg-info/SOURCES.txt'
+[15.760s] running build_ext
+[15.762s] Creating /home/ubuntu/ros2_ws/src/install/robot2/lib/python3.10/site-packages/robot2.egg-link (link to .)
+[15.770s] Installing robot_node script to /home/ubuntu/ros2_ws/src/install/robot2/lib/robot2
+[15.774s] 
+[15.777s] Installed /home/ubuntu/ros2_ws/src/build/robot2
+[15.780s] running install_data
+[15.783s] creating /home/ubuntu/ros2_ws/src/install/robot2/share/ament_index
+[15.792s] creating /home/ubuntu/ros2_ws/src/install/robot2/share/ament_index/resource_index
+[15.795s] creating /home/ubuntu/ros2_ws/src/install/robot2/share/ament_index/resource_index/packages
+[15.803s] copying resource/robot2 -> /home/ubuntu/ros2_ws/src/install/robot2/share/ament_index/resource_index/packages
+[15.807s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/robot2/share/robot2
+[15.811s] copying launch/robot_launch.py -> /home/ubuntu/ros2_ws/src/install/robot2/share/robot2
+[16.240s] Invoked command in '/home/ubuntu/ros2_ws/src/build/robot2' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/robot2/prefix_override:/home/ubuntu/ros2_ws/src/install/robot2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/robot2/build --no-deps install_data

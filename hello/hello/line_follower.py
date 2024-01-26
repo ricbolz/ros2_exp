@@ -8,23 +8,17 @@ from sensor_msgs.msg import Joy
 from std_srvs.srv import SetBool
 from rclpy.executors import MultiThreadedExecutor
 import time
+import playsound
+import random as rand
 
 class LineFollower(Node):
     NUM_OF_SAMPLES = 10
     SENSOR_NUM = 4
 
     def __init__(self):
-        # super().__init__('follower', namespace='', node_options=options)
+
         super().__init__('follower')
-        self.subscription = self.create_subscription(
-            Joy,
-            'joy',
-            self.listener_callback,
-            10)
-        # self.publisher = self.create_publisher(
-        #     Twist,
-        #     'cmd_vel',
-        #     10)
+
         self.velocity = 0.0
         self.switches = Switches()
         self.cmd_vel_timer = self.create_timer(0.05, self.on_cmd_vel_timer)
@@ -47,6 +41,8 @@ class LineFollower(Node):
         self.line_sampling = False
         self.field_sampling = False
         self.can_publish_cmdvel = False
+        self.out_of_range = False
+        self.random_num = 0
 
         
 
@@ -81,34 +77,11 @@ class LineFollower(Node):
 
         self.indicate_line_detections()
 
-    def listener_callback(self, msg):
-        twist = Twist()
 
-        # For a PS2 controller, the left stick's x-axis (usually msg.axes[0]) controls the direction
-        twist.angular.z = msg.axes[0] 
-
-        # Check if the 'X' button (usually msg.buttons[2] for a PS2 controller) is pressed
-        if msg.buttons[2] == 1:
-            self.velocity += 0.01  # Increase the velocity
-            if self.velocity > 0.2 :
-                self.velocity = 0.2
-            self.get_logger().info('The "X" button is pressed. Increasing velocity.')
-
-        # Check if the 'Square' button (usually msg.buttons[3] for a PS2 controller) is pressed
-        elif msg.buttons[3] == 1:
-            self.velocity -= 0.01  # Decrease the velocity (act as brake)
-            if self.velocity < -0.2 :
-                self.velocity = -0.2
-            self.get_logger().info('The "Square" button is pressed. Decreasing velocity.')
-        else :
-            self.velocity = 0.0
-        # Apply the velocity
-        twist.linear.x = self.velocity
-
-        self.publisher.publish(twist)
-        self.get_logger().info('Publishing Twist: linear.x=%f, angular.z=%f' % (twist.linear.x, twist.angular.z))
 
     def callback_light_sensors(self, msg):
+        self.random_num = rand.randint(1, 18)
+
         # The order of the front distance sensors and the line following sensors are not the same
         self.present_sensor_values[0] = msg.forward_r
         self.present_sensor_values[1] = msg.right
@@ -130,28 +103,18 @@ class LineFollower(Node):
         future_result = self.motor_power_client.call_async(request)
 
     def publish_cmdvel_for_line_following(self):
-        VEL_LINEAR_X = 0.08  # m/s
-        VEL_ANGULAR_Z = 0.8  # rad/s
-        LOW_VEL_ANGULAR_Z = 0.5  # rad/s
-
-        cmd_vel = Twist()
 
         detect_line = any(self.line_is_detected_by_sensor)
         detect_field = any(not x for x in self.line_is_detected_by_sensor)
 
         if detect_line and detect_field:
-            cmd_vel.linear.x = VEL_LINEAR_X
-
-            if self.line_is_detected_by_sensor[0]:
-                cmd_vel.angular.z += VEL_ANGULAR_Z
-            if self.line_is_detected_by_sensor[3]:
-                cmd_vel.angular.z -= VEL_ANGULAR_Z
-            if self.line_is_detected_by_sensor[1]:
-                cmd_vel.angular.z += LOW_VEL_ANGULAR_Z
-            if self.line_is_detected_by_sensor[2]:
-                cmd_vel.angular.z -= LOW_VEL_ANGULAR_Z
-
-        self.cmd_vel_pub.publish(cmd_vel)
+            self.out_of_range = False
+            self.get_logger().info("Both line and field are detected.")
+        elif not detect_line :
+            if not self.out_of_range:
+                self.get_logger().info("Field is detected.")
+                self.out_of_range = True
+                playsound.playsound('/home/ubuntu/ros2_ws/src/hello/motion-slam/sound'+str(self.random_num)+'.mp3')
 
     def update_line_detection(self):
         for i in range(self.SENSOR_NUM):

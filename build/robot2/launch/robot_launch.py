@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/src/robot2/launch/robot_launch.py

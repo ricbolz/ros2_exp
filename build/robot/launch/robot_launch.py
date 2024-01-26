@@ -1,1 +1,1 @@
-/home/ricbolz/ros2_ws/src/robot/launch/robot_launch.py
+/home/ubuntu/ros2_ws/src/robot/launch/robot_launch.py

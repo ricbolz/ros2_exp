@@ -1,0 +1,204 @@
+[0.000000] (-) TimerEvent: {}
+[0.001117] (-) JobUnselected: {'identifier': 'hello'}
+[0.001622] (-) JobUnselected: {'identifier': 'mr_exp_samples'}
+[0.001805] (-) JobUnselected: {'identifier': 'raspimouse'}
+[0.001918] (-) JobUnselected: {'identifier': 'raspimouse_msgs'}
+[0.002019] (-) JobUnselected: {'identifier': 'raspimouse_ros2_examples'}
+[0.002123] (-) JobUnselected: {'identifier': 'text_to_speech'}
+[0.002219] (-) JobUnselected: {'identifier': 'text_to_speech_msgs'}
+[0.002338] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.002467] (robot) JobStarted: {'identifier': 'robot'}
+[0.081187] (-) TimerEvent: {}
+[0.183490] (-) TimerEvent: {}
+[0.288018] (-) TimerEvent: {}
+[0.390482] (-) TimerEvent: {}
+[0.491966] (-) TimerEvent: {}
+[0.594473] (-) TimerEvent: {}
+[0.697239] (-) TimerEvent: {}
+[0.799602] (-) TimerEvent: {}
+[0.905368] (-) TimerEvent: {}
+[1.006757] (-) TimerEvent: {}
+[1.110964] (-) TimerEvent: {}
+[1.215069] (-) TimerEvent: {}
+[1.317243] (-) TimerEvent: {}
+[1.419227] (-) TimerEvent: {}
+[1.521862] (-) TimerEvent: {}
+[1.624295] (-) TimerEvent: {}
+[1.726188] (-) TimerEvent: {}
+[1.827890] (-) TimerEvent: {}
+[1.929864] (-) TimerEvent: {}
+[2.033043] (-) TimerEvent: {}
+[2.134414] (-) TimerEvent: {}
+[2.236831] (-) TimerEvent: {}
+[2.338527] (-) TimerEvent: {}
+[2.441085] (-) TimerEvent: {}
+[2.542407] (-) TimerEvent: {}
+[2.644524] (-) TimerEvent: {}
+[2.746100] (-) TimerEvent: {}
+[2.847927] (-) TimerEvent: {}
+[2.949563] (-) TimerEvent: {}
+[3.051143] (-) TimerEvent: {}
+[3.152909] (-) TimerEvent: {}
+[3.254745] (-) TimerEvent: {}
+[3.357169] (-) TimerEvent: {}
+[3.458662] (-) TimerEvent: {}
+[3.560972] (-) TimerEvent: {}
+[3.663498] (-) TimerEvent: {}
+[3.765476] (-) TimerEvent: {}
+[3.867167] (-) TimerEvent: {}
+[3.968816] (-) TimerEvent: {}
+[4.069834] (-) TimerEvent: {}
+[4.171166] (-) TimerEvent: {}
+[4.272915] (-) TimerEvent: {}
+[4.374558] (-) TimerEvent: {}
+[4.476840] (-) TimerEvent: {}
+[4.578700] (-) TimerEvent: {}
+[4.680504] (-) TimerEvent: {}
+[4.784558] (-) TimerEvent: {}
+[4.888480] (-) TimerEvent: {}
+[4.991089] (-) TimerEvent: {}
+[5.093676] (-) TimerEvent: {}
+[5.195589] (-) TimerEvent: {}
+[5.298791] (-) TimerEvent: {}
+[5.401318] (-) TimerEvent: {}
+[5.504715] (-) TimerEvent: {}
+[5.606974] (-) TimerEvent: {}
+[5.713925] (-) TimerEvent: {}
+[5.815761] (-) TimerEvent: {}
+[5.918072] (-) TimerEvent: {}
+[6.020042] (-) TimerEvent: {}
+[6.122138] (-) TimerEvent: {}
+[6.223348] (-) TimerEvent: {}
+[6.324788] (-) TimerEvent: {}
+[6.426017] (-) TimerEvent: {}
+[6.527393] (-) TimerEvent: {}
+[6.629794] (-) TimerEvent: {}
+[6.732134] (-) TimerEvent: {}
+[6.835301] (-) TimerEvent: {}
+[6.941900] (-) TimerEvent: {}
+[7.043423] (-) TimerEvent: {}
+[7.144894] (-) TimerEvent: {}
+[7.246309] (-) TimerEvent: {}
+[7.347948] (-) TimerEvent: {}
+[7.449280] (-) TimerEvent: {}
+[7.550671] (-) TimerEvent: {}
+[7.651981] (-) TimerEvent: {}
+[7.753931] (-) TimerEvent: {}
+[7.855346] (-) TimerEvent: {}
+[7.956620] (-) TimerEvent: {}
+[8.057807] (-) TimerEvent: {}
+[8.159292] (-) TimerEvent: {}
+[8.261070] (-) TimerEvent: {}
+[8.362917] (-) TimerEvent: {}
+[8.464546] (-) TimerEvent: {}
+[8.566835] (-) TimerEvent: {}
+[8.670038] (-) TimerEvent: {}
+[8.772965] (-) TimerEvent: {}
+[8.876305] (-) TimerEvent: {}
+[8.978910] (-) TimerEvent: {}
+[9.080571] (-) TimerEvent: {}
+[9.182515] (-) TimerEvent: {}
+[9.283613] (-) TimerEvent: {}
+[9.385198] (-) TimerEvent: {}
+[9.486488] (-) TimerEvent: {}
+[9.587584] (-) TimerEvent: {}
+[9.688670] (-) TimerEvent: {}
+[9.789743] (-) TimerEvent: {}
+[9.891358] (-) TimerEvent: {}
+[9.993079] (-) TimerEvent: {}
+[10.096561] (-) TimerEvent: {}
+[10.197596] (-) TimerEvent: {}
+[10.285808] (robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/ros2_ws/src/build/robot/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/build/robot', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ja:en', 'USER': 'ubuntu', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/raspimouse_ros2_examples/lib:/home/ubuntu/ros2_ws/install/raspimouse/lib:/home/ubuntu/ros2_ws/install/raspimouse_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.85.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ja_JP.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1605', 'SYSTEMD_EXEC_PID': '1794', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2608', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:25572', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-desktop:@/tmp/.ICE-unix/1752,unix/ubuntu-desktop:/tmp/.ICE-unix/1752', 'INVOCATION_ID': '17f6cf296a4a437c8275624594bccd7a', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.XS89G2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9ed865976c.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/text_to_speech:/home/ubuntu/ros2_ws/install/raspimouse_ros2_examples:/home/ubuntu/ros2_ws/install/raspimouse:/home/ubuntu/ros2_ws/install/raspimouse_msgs:/home/ubuntu/ros2_ws/install/mr_exp_samples:/home/ubuntu/ros2_ws/install/hello:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/ros2_ws/src/build/robot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/src/build/robot/prefix_override:/home/ubuntu/ros2_ws/src/install/robot/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/text_to_speech/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/raspimouse_ros2_examples/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/raspimouse_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/mr_exp_samples/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/hello/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/raspimouse_ros2_examples:/home/ubuntu/ros2_ws/install/raspimouse:/home/ubuntu/ros2_ws/install/raspimouse_msgs'}, 'shell': False}
+[10.298126] (-) TimerEvent: {}
+[10.403085] (-) TimerEvent: {}
+[10.506284] (-) TimerEvent: {}
+[10.610635] (-) TimerEvent: {}
+[10.712379] (-) TimerEvent: {}
+[10.813891] (-) TimerEvent: {}
+[10.915643] (-) TimerEvent: {}
+[11.018688] (-) TimerEvent: {}
+[11.122251] (-) TimerEvent: {}
+[11.223742] (-) TimerEvent: {}
+[11.326231] (-) TimerEvent: {}
+[11.428333] (-) TimerEvent: {}
+[11.532841] (-) TimerEvent: {}
+[11.635252] (-) TimerEvent: {}
+[11.740969] (-) TimerEvent: {}
+[11.843289] (-) TimerEvent: {}
+[11.945082] (-) TimerEvent: {}
+[12.046977] (-) TimerEvent: {}
+[12.149219] (-) TimerEvent: {}
+[12.252196] (-) TimerEvent: {}
+[12.354380] (-) TimerEvent: {}
+[12.457082] (-) TimerEvent: {}
+[12.559833] (-) TimerEvent: {}
+[12.661704] (-) TimerEvent: {}
+[12.763138] (-) TimerEvent: {}
+[12.864179] (-) TimerEvent: {}
+[12.965842] (-) TimerEvent: {}
+[13.068745] (-) TimerEvent: {}
+[13.171861] (-) TimerEvent: {}
+[13.273878] (-) TimerEvent: {}
+[13.375238] (-) TimerEvent: {}
+[13.478557] (-) TimerEvent: {}
+[13.581434] (-) TimerEvent: {}
+[13.683557] (-) TimerEvent: {}
+[13.785764] (-) TimerEvent: {}
+[13.890356] (-) TimerEvent: {}
+[13.903723] (robot) StdoutLine: {'line': b'running develop\n'}
+[13.990964] (-) TimerEvent: {}
+[14.093079] (-) TimerEvent: {}
+[14.194592] (-) TimerEvent: {}
+[14.295892] (-) TimerEvent: {}
+[14.397950] (-) TimerEvent: {}
+[14.500348] (-) TimerEvent: {}
+[14.601822] (-) TimerEvent: {}
+[14.703283] (-) TimerEvent: {}
+[14.805154] (-) TimerEvent: {}
+[14.906978] (-) TimerEvent: {}
+[15.008759] (-) TimerEvent: {}
+[15.110519] (-) TimerEvent: {}
+[15.212674] (-) TimerEvent: {}
+[15.314882] (-) TimerEvent: {}
+[15.417373] (-) TimerEvent: {}
+[15.518546] (-) TimerEvent: {}
+[15.620288] (-) TimerEvent: {}
+[15.721953] (-) TimerEvent: {}
+[15.823647] (-) TimerEvent: {}
+[15.924772] (-) TimerEvent: {}
+[16.025912] (-) TimerEvent: {}
+[16.127879] (-) TimerEvent: {}
+[16.229932] (-) TimerEvent: {}
+[16.331981] (-) TimerEvent: {}
+[16.433635] (-) TimerEvent: {}
+[16.522743] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[16.524994] (robot) StdoutLine: {'line': b'writing robot.egg-info/PKG-INFO\n'}
+[16.527583] (robot) StdoutLine: {'line': b'writing dependency_links to robot.egg-info/dependency_links.txt\n'}
+[16.529970] (robot) StdoutLine: {'line': b'writing entry points to robot.egg-info/entry_points.txt\n'}
+[16.533333] (robot) StdoutLine: {'line': b'writing requirements to robot.egg-info/requires.txt\n'}
+[16.534339] (-) TimerEvent: {}
+[16.536503] (robot) StdoutLine: {'line': b'writing top-level names to robot.egg-info/top_level.txt\n'}
+[16.555981] (robot) StdoutLine: {'line': b"reading manifest file 'robot.egg-info/SOURCES.txt'\n"}
+[16.561315] (robot) StdoutLine: {'line': b"writing manifest file 'robot.egg-info/SOURCES.txt'\n"}
+[16.572777] (robot) StdoutLine: {'line': b'running build_ext\n'}
+[16.575319] (robot) StdoutLine: {'line': b'Creating /home/ubuntu/ros2_ws/src/install/robot/lib/python3.10/site-packages/robot.egg-link (link to .)\n'}
+[16.585577] (robot) StdoutLine: {'line': b'Installing joypad_node script to /home/ubuntu/ros2_ws/src/install/robot/lib/robot\n'}
+[16.590611] (robot) StdoutLine: {'line': b'\n'}
+[16.591793] (robot) StdoutLine: {'line': b'Installed /home/ubuntu/ros2_ws/src/build/robot\n'}
+[16.593752] (robot) StdoutLine: {'line': b'running install_data\n'}
+[16.634724] (-) TimerEvent: {}
+[16.736237] (-) TimerEvent: {}
+[16.838511] (-) TimerEvent: {}
+[16.942212] (-) TimerEvent: {}
+[17.017336] (robot) CommandEnded: {'returncode': 0}
+[17.042894] (-) TimerEvent: {}
+[17.144872] (-) TimerEvent: {}
+[17.246780] (-) TimerEvent: {}
+[17.348986] (-) TimerEvent: {}
+[17.450299] (-) TimerEvent: {}
+[17.553544] (-) TimerEvent: {}
+[17.655979] (-) TimerEvent: {}
+[17.757186] (-) TimerEvent: {}
+[17.859333] (-) TimerEvent: {}
+[17.951827] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[17.957032] (-) EventReactorShutdown: {}

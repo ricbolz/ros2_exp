@@ -1,0 +1,17 @@
+[10.288s] Invoking command in '/home/ubuntu/ros2_ws/src/build/robot': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/robot/prefix_override:/home/ubuntu/ros2_ws/src/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/robot/build --no-deps install_data
+[13.903s] running develop
+[16.522s] running egg_info
+[16.523s] writing robot.egg-info/PKG-INFO
+[16.526s] writing dependency_links to robot.egg-info/dependency_links.txt
+[16.528s] writing entry points to robot.egg-info/entry_points.txt
+[16.532s] writing requirements to robot.egg-info/requires.txt
+[16.535s] writing top-level names to robot.egg-info/top_level.txt
+[16.554s] reading manifest file 'robot.egg-info/SOURCES.txt'
+[16.559s] writing manifest file 'robot.egg-info/SOURCES.txt'
+[16.572s] running build_ext
+[16.574s] Creating /home/ubuntu/ros2_ws/src/install/robot/lib/python3.10/site-packages/robot.egg-link (link to .)
+[16.584s] Installing joypad_node script to /home/ubuntu/ros2_ws/src/install/robot/lib/robot
+[16.589s] 
+[16.590s] Installed /home/ubuntu/ros2_ws/src/build/robot
+[16.593s] running install_data
+[17.018s] Invoked command in '/home/ubuntu/ros2_ws/src/build/robot' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/robot/prefix_override:/home/ubuntu/ros2_ws/src/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/robot/build --no-deps install_data

@@ -13,7 +13,7 @@ class joypad_node(Node):
     SENSOR_NUM = 4
 
     def __init__(self):
-        super().__init__('joypad_mouse_controller')
+        super().__init__('joypad_node')
         self.subscription = self.create_subscription(
             Joy,
             'joy',
@@ -28,10 +28,6 @@ class joypad_node(Node):
         #     'switches',
         #     self.switch_callback,
         #     10)
-        self.leds_pub = self.create_publisher(
-            Leds,
-            'leds',
-            10)
         self.buzzer_pub = self.create_publisher(
             Int16,
             'buzzer',
@@ -99,7 +95,7 @@ class joypad_node(Node):
         if self.can_publish_cmdvel:
             self.publish_cmdvel_for_line_following()
 
-        self.indicate_line_detections()
+        #self.indicate_line_detections()
 
     def listener_callback(self, msg):
         twist = Twist()
@@ -131,6 +127,7 @@ class joypad_node(Node):
 
     def switch_callback(self, msg):
         self.switches = msg
+        self.get_logger().info("Start following.")
 
     def callback_light_sensors(self, msg):
         # The order of the front distance sensors and the line following sensors are not the same
@@ -150,13 +147,13 @@ class joypad_node(Node):
             is_positive = self.present_sensor_values[i] > self.line_thresholds[i]
             self.line_is_detected_by_sensor[i] = is_positive == self.line_is_bright()
 
-    def indicate_line_detections(self):
-        msg = Leds()
-        msg.led0 = self.line_is_detected_by_sensor[3]
-        msg.led1 = self.line_is_detected_by_sensor[1]
-        msg.led2 = self.line_is_detected_by_sensor[2]
-        msg.led3 = self.line_is_detected_by_sensor[0]
-        self.leds_pub.publish(msg)
+    # def indicate_line_detections(self):
+    #     msg = Leds()
+    #     msg.led0 = self.line_is_detected_by_sensor[3]
+    #     msg.led1 = self.line_is_detected_by_sensor[1]
+    #     msg.led2 = self.line_is_detected_by_sensor[2]
+    #     msg.led3 = self.line_is_detected_by_sensor[0]
+    #     self.leds_pub.publish(msg)
         
     def beep_buzzer(self, freq, beep_time):
         msg = Int16()
