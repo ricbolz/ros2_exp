@@ -25,22 +25,23 @@ class JoypadMouseController(Node):
 
         # For a PS2 controller, the left stick's x-axis (usually msg.axes[0]) controls the direction
         twist.angular.z = msg.axes[0] 
+        self.velocity = 0.1* msg.axes[2]
 
-        # Check if the 'X' button (usually msg.buttons[2] for a PS2 controller) is pressed
-        if msg.buttons[2] == 1:
-            self.velocity += 0.005  # Increase the velocity
-            if self.velocity > 0.1 :
-                self.velocity = 0.1
-            self.get_logger().info('The "X" button is pressed. Increasing velocity.')
+        # # Check if the 'X' button (usually msg.buttons[2] for a PS2 controller) is pressed
+        # if msg.buttons[2] == 1:
+        #     self.velocity += 0.05  # Increase the velocity
+        #     if self.velocity > 0.1 :
+        #         self.velocity = 0.1
+        #     self.get_logger().info('The "X" button is pressed. Increasing velocity.')
 
-        # Check if the 'Square' button (usually msg.buttons[3] for a PS2 controller) is pressed
-        elif msg.buttons[3] == 1:
-            self.velocity -= 0.005  # Decrease the velocity (act as brake)
-            if self.velocity < -0.1 :
-                self.velocity = -0.1
-            self.get_logger().info('The "Square" button is pressed. Decreasing velocity.')
-        else :
-            self.velocity = 0.0
+        # # Check if the 'Square' button (usually msg.buttons[3] for a PS2 controller) is pressed
+        # elif msg.buttons[3] == 1:
+        #     self.velocity -= 0.05  # Decrease the velocity (act as brake)
+        #     if self.velocity < -0.1 :
+        #         self.velocity = -0.1
+        #     self.get_logger().info('The "Square" button is pressed. Decreasing velocity.')
+        # else :
+        #     self.velocity = 0.0
         # Apply the velocity
         twist.linear.x = self.velocity
 

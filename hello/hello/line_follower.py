@@ -104,17 +104,19 @@ class LineFollower(Node):
 
     def publish_cmdvel_for_line_following(self):
 
-        detect_line = any(self.line_is_detected_by_sensor)
+        detect_line = self.line_is_detected_by_sensor[1] or self.line_is_detected_by_sensor[2]
         detect_field = any(not x for x in self.line_is_detected_by_sensor)
 
         if detect_line and detect_field:
             self.out_of_range = False
             self.get_logger().info("Both line and field are detected.")
-        elif not detect_line :
+        elif detect_field :
             if not self.out_of_range:
                 self.get_logger().info("Field is detected.")
                 self.out_of_range = True
                 playsound.playsound('/home/ubuntu/ros2_ws/src/hello/motion-slam/sound'+str(self.random_num)+'.mp3')
+
+        
 
     def update_line_detection(self):
         for i in range(self.SENSOR_NUM):
